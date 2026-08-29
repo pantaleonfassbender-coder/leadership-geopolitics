@@ -23,6 +23,7 @@ function route() {
   const h = (location.hash || "#/overview").slice(2).split("/");
   const name = h[0] || "overview";
   document.querySelectorAll("#nav a").forEach(a => a.classList.toggle("active", a.dataset.v === name));
+  if (atlasStop) { atlasStop(); atlasStop = null; }
   view.innerHTML = ""; window.scrollTo(0, 0);
   (ROUTES[name] || viewOverview)(h.slice(1));
 }
@@ -77,6 +78,12 @@ function viewOverview() {
         <p>Eight current leadership challenges — escalation, sensing, change, interdependence, execution
         and more — each mapped to the exact passages across the corpus that speak to it.
         <a href="#/concordance">Open the concordance →</a></p>
+      </div>
+      <div class="card">
+        <h3>Atlas</h3>
+        <p>A conceptual map of the corpus: its leading terms — war, power, trade, law, sea — linked
+        where they occur in the same passage, coloured by line. Click any term to see how twelve
+        works across 2,300 years share one vocabulary. <a href="#/atlas">Open the atlas →</a></p>
       </div>
       <div class="card">
         <h3>Applications</h3>
@@ -464,6 +471,171 @@ function viewConcordance() {
   view.append(wrap);
 }
 
+/* =============================================================== ATLAS */
+/* Co-occurrence network of the leading terms across the corpus.
+   Data precomputed by tools/build-network.js into data/network.json. */
+let NET = null, atlasStop = null;
+
+async function viewAtlas() {
+  if (!NET) NET = await fetch("data/network.json").then(r => r.json());
+  view.append(el(`<div>
+    <div class="viewhead"><span class="tag">Term network</span>
+      <h1>Atlas</h1>
+      <p class="lede">The ${NET.nodes.length} leading content terms of the corpus, linked where they
+      occur in the same excerpt unit. Colour is the line whose texts use the term most
+      (<span style="color:var(--state)">statecraft</span> ·
+      <span style="color:var(--trade)">trade</span> ·
+      <span style="color:var(--strat)">strategy</span>); size is frequency. Click a term for its
+      neighbours and citations — a conceptual map of how the twelve works share one vocabulary of
+      power, trade and war.</p></div>
+    <div class="toolbar">
+      <label class="fine" for="dens">Density</label>
+      <select id="dens">
+        <option value="160">sparse</option>
+        <option value="320" selected>medium</option>
+        <option value="600">dense</option>
+      </select>
+      <span class="fine" id="atlasinfo"></span>
+    </div>
+    <div class="card" style="padding:0;overflow:hidden"><canvas id="cv" style="width:100%;display:block;cursor:pointer"></canvas></div>
+    <div id="sel"></div>
+    <div class="card" style="margin-top:1.2rem"><span class="tag">Bridge terms</span>
+      <p style="margin:.5rem 0 0" class="readable">Terms carried by four or more of the works — the
+      shared vocabulary in which the lines argue with each other:
+      ${NET.bridges.map(b => `<button class="chip" data-b="${esc(b)}">${esc(b)}</button>`).join(" ")}</p></div>
+  </div>`));
+  const cv = view.querySelector("#cv");
+  const selBox = view.querySelector("#sel");
+  const densSel = view.querySelector("#dens");
+  const W = Math.min(view.clientWidth || 900, 980), H = Math.max(460, Math.round(W * 0.62));
+  const dpr = window.devicePixelRatio || 1;
+  cv.width = W * dpr; cv.height = H * dpr; cv.style.height = H + "px";
+  const cx = cv.getContext("2d"); cx.scale(dpr, dpr);
+
+  const nodes = NET.nodes.map(n => ({ ...n,
+    x: W / 2 + (Math.random() - 0.5) * W * 0.8, y: H / 2 + (Math.random() - 0.5) * H * 0.8,
+    vx: 0, vy: 0, r: 3 + Math.sqrt(n.f) * 1.4 }));
+  const byId = Object.fromEntries(nodes.map(n => [n.id, n]));
+  const LBL = [...nodes.map(n => n.f)].sort((a, b) => b - a)[24] || 3;
+  let edges = [], selected = null, tick = 0;
+
+  function setDensity() {
+    edges = NET.edges.slice(0, +densSel.value).map(e => ({ ...e, a: byId[e.s], b: byId[e.t] }))
+      .filter(e => e.a && e.b);
+    view.querySelector("#atlasinfo").textContent =
+      `${nodes.length} terms · ${edges.length} links · from ${NET.n_units} excerpt units`;
+    tick = 0;
+  }
+  setDensity();
+  densSel.onchange = setDensity;
+
+  function step() {
+    /* simple force layout: pairwise repulsion, spring on edges, center pull */
+    for (const n of nodes) { n.fx = 0; n.fy = 0; }
+    for (let i = 0; i < nodes.length; i++) for (let j = i + 1; j < nodes.length; j++) {
+      const a = nodes[i], b = nodes[j];
+      let dx = a.x - b.x, dy = a.y - b.y, d2 = dx * dx + dy * dy + 40;
+      const f = 1400 / d2;
+      const d = Math.sqrt(d2);
+      dx /= d; dy /= d;
+      a.fx += dx * f; a.fy += dy * f; b.fx -= dx * f; b.fy -= dy * f;
+    }
+    for (const e of edges) {
+      let dx = e.b.x - e.a.x, dy = e.b.y - e.a.y;
+      const d = Math.sqrt(dx * dx + dy * dy) || 1;
+      const want = 60 + 700 / (e.w + 4);
+      const f = (d - want) * 0.004 * Math.min(e.w, 6);
+      dx /= d; dy /= d;
+      e.a.fx += dx * f * d * 0.02; e.a.fy += dy * f * d * 0.02;
+      e.b.fx -= dx * f * d * 0.02; e.b.fy -= dy * f * d * 0.02;
+    }
+    for (const n of nodes) {
+      n.fx += (W / 2 - n.x) * 0.004; n.fy += (H / 2 - n.y) * 0.004;
+      n.vx = (n.vx + n.fx) * 0.82; n.vy = (n.vy + n.fy) * 0.82;
+      n.x += n.vx; n.y += n.vy;
+      n.x = Math.max(14, Math.min(W - 14, n.x)); n.y = Math.max(14, Math.min(H - 14, n.y));
+    }
+  }
+
+  const COLOR = { state: "#8fb4d9", trade: "#c9a15a", strat: "#c98070" };
+  function draw() {
+    cx.clearRect(0, 0, W, H);
+    const neigh = new Set();
+    if (selected) for (const e of edges) {
+      if (e.a === selected) neigh.add(e.b);
+      if (e.b === selected) neigh.add(e.a);
+    }
+    for (const e of edges) {
+      const on = selected && (e.a === selected || e.b === selected);
+      cx.strokeStyle = on ? "rgba(201,161,90,.55)" : "rgba(160,160,180,.13)";
+      cx.lineWidth = on ? 1.4 : Math.min(1, 0.3 + e.w * 0.05);
+      cx.beginPath(); cx.moveTo(e.a.x, e.a.y); cx.lineTo(e.b.x, e.b.y); cx.stroke();
+    }
+    for (const n of nodes) {
+      const dimmed = selected && n !== selected && !neigh.has(n);
+      cx.globalAlpha = dimmed ? 0.25 : 1;
+      cx.fillStyle = COLOR[n.linie];
+      cx.beginPath(); cx.arc(n.x, n.y, n.r, 0, 7); cx.fill();
+      if (n === selected) { cx.strokeStyle = "#fff"; cx.lineWidth = 1.5; cx.stroke(); }
+      if (!dimmed && (n.f >= LBL || n === selected || neigh.has(n))) {
+        cx.fillStyle = "rgba(233,230,224,.92)";
+        cx.font = (n === selected ? "600 " : "") + "11px system-ui, sans-serif";
+        cx.textAlign = "center";
+        cx.fillText(n.id, n.x, n.y - n.r - 4);
+      }
+      cx.globalAlpha = 1;
+    }
+  }
+
+  let raf;
+  function loop() {
+    if (tick < 260) { step(); tick++; }
+    draw();
+    raf = requestAnimationFrame(loop);
+  }
+  loop();
+  atlasStop = () => cancelAnimationFrame(raf);
+
+  function select(n) {
+    selected = n;
+    selBox.innerHTML = "";
+    if (!n) return;
+    const co = edges.filter(e => e.a === n || e.b === n)
+      .map(e => ({ o: e.a === n ? e.b : e.a, c: e.c })).sort((a, b) => b.c - a.c).slice(0, 14);
+    const wk = Object.entries(n.works).sort((a, b) => b[1] - a[1]);
+    selBox.append(el(`<div class="card" style="margin-top:1.2rem">
+      <div style="display:flex;gap:.8rem;align-items:baseline;flex-wrap:wrap">
+        <h3 style="margin:0;color:${COLOR[n.linie]}">${esc(n.id)}</h3>
+        <span class="fine">${n.f} excerpt units · in ${n.spread} of ${D.works.length} works</span></div>
+      <p class="fine" style="margin:.4rem 0">${wk.map(([id, c]) => {
+        const w = workById(id);
+        return `${esc(w ? w.abbr : id)}: ${c}`; }).join(" · ")}</p>
+      <p style="margin:.4rem 0 0">${co.map(x =>
+        `<button class="chip" data-b="${esc(x.o.id)}">${esc(x.o.id)} <span class="fine">${x.c}</span></button>`).join(" ")}</p>
+      <p style="margin:.6rem 0 0">${n.cites.map(([wid, sid, k]) => {
+        const w = workById(wid);
+        const t = D.texts[wid];
+        const s = t && t.sections.find(x => x.id === sid);
+        const u = s && s.units.find(x => String(x.k) === String(k));
+        return u ? `<a class="cite" href="#/work/${wid}/${esc(sid)}/${esc(k)}">${esc(citeOf(w, s, u))}</a>` : "";
+      }).join(" ")}</p>
+    </div>`));
+    selBox.querySelectorAll("[data-b]").forEach(b => b.onclick = () => select(byId[b.dataset.b]));
+  }
+
+  cv.onclick = ev => {
+    const r = cv.getBoundingClientRect();
+    const x = (ev.clientX - r.left) * (W / r.width), y = (ev.clientY - r.top) * (H / r.height);
+    let best = null, bd = 400;
+    for (const n of nodes) {
+      const d = (n.x - x) ** 2 + (n.y - y) ** 2;
+      if (d < bd && d < (n.r + 10) ** 2) { best = n; bd = d; }
+    }
+    select(best);
+  };
+  view.querySelectorAll("[data-b]").forEach(b => b.onclick = () => select(byId[b.dataset.b]));
+}
+
 /* ======================================================== APPLICATIONS */
 function viewApplications() {
   view.append(el(`<div>
@@ -579,6 +751,20 @@ function viewMethod() {
     </div>
 
     <div class="panel">
+      <h2>The atlas</h2>
+      <p class="readable">The <a href="#/atlas">atlas</a> is a co-occurrence network computed from the
+      excerpt units themselves: its nodes are the corpus's leading content terms (after removal of
+      function words and merging of early modern spelling variants — <span class="mono">warre</span>/war,
+      <span class="mono">forraign</span>/foreign, <span class="mono">mony</span>/money), linked where
+      two terms appear in the same unit, and coloured by the line whose works use them most. It is
+      built by <span class="mono">tools/build-network.js</span> in the site repository — included
+      there, so the mapping is reproducible — and precomputed into
+      <span class="mono">data/network.json</span>; nothing is computed on a server. Because it is
+      derived from curated excerpts rather than the full works, it maps this apparatus, not the
+      complete texts: a reading aid, not corpus linguistics.</p>
+    </div>
+
+    <div class="panel">
       <h2>Considered and set aside</h2>
       <p class="readable">Giovanni Botero's <em>Della ragion di Stato</em> (1589) and Richelieu's
       <em>Testament politique</em> belong in this corpus intellectually, but their standard English
@@ -671,7 +857,7 @@ function viewImprint() {
 
 Object.assign(ROUTES, {
   overview: viewOverview, introduction: viewIntroduction, works: viewWorks,
-  work: viewWork, concordance: viewConcordance, applications: viewApplications,
+  work: viewWork, concordance: viewConcordance, atlas: viewAtlas, applications: viewApplications,
   method: viewMethod, privacy: viewPrivacy, imprint: viewImprint,
 });
 
