@@ -1,0 +1,80 @@
+{
+  "headnote": [
+    "The Arthashastra — the 'science of wealth and statecraft' — is attributed to Kautilya (also Chanakya or Vishnugupta), minister to Chandragupta Maurya, founder of the Mauryan empire (c. 321 BC); the text as we have it was compiled and layered over several centuries. Lost for most of the modern era, it was rediscovered in 1905 by the Mysore librarian R. Shamasastry, whose English translation (1915) astonished European readers: here was a complete administrative and strategic manual — treasury, personnel, audit, intelligence, diplomacy — centuries older and vastly more systematic than Machiavelli.",
+    "Three of its instruments are excerpted here. The seven elements of sovereignty are a capability audit for any organized enterprise. The mandala or circle of states is the oldest formal model of competitive geometry: rivals and allies defined by position, not sentiment. And the sixfold policy is a decision menu — six postures toward a competitor, each with its stated trigger condition. The translation is Shamasastry's, from the University of Toronto scan of the printed edition."
+  ],
+  "sections": [
+    {
+      "id": "b1c19",
+      "label": "Book I, chapter 19 — the duties of a king",
+      "cite": "Arth. I.19",
+      "units": [
+        {
+          "k": "1",
+          "text": "In the happiness of his subjects lies his happiness; in their welfare his welfare; whatever pleases himself he shall not consider as good, but whatever pleases his subjects he shall consider as good."
+        },
+        {
+          "k": "2",
+          "text": "Hence the king shall ever be active and discharge his duties; the root of wealth is activity, and of evil its reverse. In the absence of activity acquisitions present and to come will perish; by activity he can achieve both his desired ends and abundance of wealth."
+        }
+      ]
+    },
+    {
+      "id": "b6c1",
+      "label": "Book VI, chapter 1 — the elements of sovereignty",
+      "cite": "Arth. VI.1",
+      "units": [
+        {
+          "k": "1",
+          "text": "The king, the minister, the country, the fort, the treasury, the army and the friend are the elements of sovereignty."
+        },
+        {
+          "k": "2",
+          "text": "Of these, the best qualities of the king are: Born of a high family, godly, possessed of valour, seeing through the medium of aged persons, virtuous, truthful, not of a contradictory nature, grateful, having large aims, highly enthusiastic, not addicted to procrastination, powerful to control his neighbouring kings, of resolute mind, having an assembly of ministers of no mean quality, and possessed of a taste for discipline; — these are the qualities of an inviting nature. Inquiry, hearing, perception, retention in memory, reflection, deliberation, inference and steadfast adherence to conclusions are the qualities of the intellect."
+        },
+        {
+          "k": "3",
+          "text": "A wise king can make even the poor and miserable elements of his sovereignty happy and prosperous; but a wicked king will surely destroy the most prosperous and loyal elements of his kingdom."
+        }
+      ]
+    },
+    {
+      "id": "b6c2",
+      "label": "Book VI, chapter 2 — the circle of states",
+      "cite": "Arth. VI.2",
+      "units": [
+        {
+          "k": "1",
+          "text": "The king who, being possessed of good character and best-fitted elements of sovereignty, is the fountain of policy, is termed the conqueror. The king who is situated anywhere immediately on the circumference of the conqueror's territory is termed the enemy. The king who is likewise situated close to the enemy, but separated from the conqueror only by the enemy, is termed the friend (of the conqueror)."
+        },
+        {
+          "k": "2",
+          "text": "That foe who is equally of high birth and occupies a territory close to that of the conqueror is a natural enemy; while he who is merely antagonistic and creates enemies to the conqueror is a factitious enemy. He whose friendship is derived from father and grandfather, and who is situated close to the territory of the immediate enemy of the conqueror is a natural friend; while he whose friendship is courted for self-maintenance is an acquired friend."
+        },
+        {
+          "k": "3",
+          "text": "The king who occupies a territory close to both the conqueror and his immediate enemy in front and who is capable of helping both the kings, whether united or disunited, or of resisting either of them individually is termed a Madhyama (mediatory) king. He who is situated beyond the territory of any of the above kings and who is very powerful and capable of helping the enemy, the conqueror, and the Madhyama king together or individually, or of resisting any of them individually, is a neutral king (udāsīna), — these are the (twelve) primary kings."
+        }
+      ]
+    },
+    {
+      "id": "b7c1",
+      "label": "Book VII, chapter 1 — the sixfold policy",
+      "cite": "Arth. VII.1",
+      "units": [
+        {
+          "k": "1",
+          "text": "The Circle of States is the source of the six-fold policy. My teacher says that peace (sandhi), war (vigraha), observance of neutrality (āsana), marching (yāna), alliance (samsraya), and making peace with one and waging war with another are the six forms of state-policy. … While Kautilya holds that as their respective conditions differ, the forms of policy are six. Of these, agreement with pledges is peace; offensive operation is war; indifference is neutrality; making preparations is marching; seeking the protection of another is alliance; and making peace with one and waging war with another, is termed a double policy (dvaidhībhāva). These are the six forms."
+        },
+        {
+          "k": "2",
+          "text": "Whoever is inferior to another shall make peace with him; whoever is superior in power shall wage war; whoever thinks \"no enemy can hurt me, nor am I strong enough to destroy my enemy,\" shall observe neutrality; whoever is possessed of necessary means shall march against his enemy; whoever is devoid of necessary strength to defend himself shall seek the protection of another; whoever thinks that help is necessary to work out an end shall make peace with one and wage war with another. Such is the aspect of the six forms of policy."
+        }
+      ]
+    }
+  ],
+  "exec": [
+    "Book VI.1 is a due-diligence framework twenty-two centuries old: leadership, management bench, market and territory, defensible assets, balance sheet, operational capability, and alliances — with the pointed coda that a good leader can compound weak assets and a bad one can destroy strong ones. The listed 'qualities of the intellect' — inquiry, hearing, perception, retention, reflection, deliberation, inference, steadfast adherence to conclusions — remain a serviceable specification for executive judgment, ending as they do with the rarest quality: sticking to a conclusion once properly reached.",
+    "The circle of states (VI.2) anticipates modern coalition analysis: your most dangerous rival is defined by position ('immediately on the circumference of your territory' — the player whose growth must come out of your market), your natural partner is the one on the far side of that rival, and the map must also register mediating powers and well-resourced neutrals — platform owners, regulators, sovereign customers — able to tip any contest they enter. The sixfold policy (VII.1) then supplies what most strategy documents lack: an explicit menu of postures — settle, contest, hold, prepare, seek protection, split the difference between two fronts — each keyed to a sober assessment of relative strength rather than to appetite. Kautilya's rule that the inferior party should make peace is not defeatism; it is sequencing. And I.19 states the legitimacy condition on which all of it rests: the enterprise exists for its stakeholders, and 'the root of wealth is activity.'"
+  ]
+}

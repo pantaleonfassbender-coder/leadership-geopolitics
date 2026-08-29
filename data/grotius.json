@@ -1,0 +1,61 @@
+{
+  "headnote": [
+    "In 1603 a Dutch East India Company captain seized the Portuguese carrack Santa Catarina in the Singapore Strait; her cargo sold for more than the company's paid-in capital. To defend the prize — and the company's right to trade in seas Portugal claimed as its own — the VOC's directors turned to a jurist in his early twenties: Hugo Grotius (1583–1645). Mare Liberum, published anonymously in 1609, is one chapter of that larger brief, and it became the founding document of the law of the sea and, with it, of the idea of a rules-based global commercial order. Its axiom — every nation is free to travel to, and trade with, every other — was written to serve a corporate client and outlived every empire that opposed it.",
+    "The three excerpts give the argument's spine: the axiom of free commerce grounded in the complementarity of regions (chapter I); the demonstration that the sea, being incapable of occupation and destined for common use, cannot be owned (chapter V); and the closing resolution that the right of trade is worth defending 'by peace, by treaty, or by war' (chapter XIII). The translation is Ralph Van Deman Magoffin's (Carnegie Endowment, 1916)."
+  ],
+  "sections": [
+    {
+      "id": "c1",
+      "label": "Chapter I — navigation and trade are free to all",
+      "cite": "ML I",
+      "units": [
+        {
+          "k": "1",
+          "text": "My intention is to demonstrate briefly and clearly that the Dutch — that is to say, the subjects of the United Netherlands — have the right to sail to the East Indies, as they are now doing, and to engage in trade with the people there. I shall base my argument on the following most specific and unimpeachable axiom of the Law of Nations, called a primary rule or first principle, the spirit of which is self-evident and immutable, to wit: Every nation is free to travel to every other nation, and to trade with it."
+        },
+        {
+          "k": "2",
+          "text": "God Himself says this speaking through the voice of nature; and inasmuch as it is not His will to have Nature supply every place with all the necessaries of life, He ordains that some nations excel in one art and others in another. Why is this His will, except it be that He wished human friendships to be engendered by mutual needs and resources, lest individuals deeming themselves entirely sufficient unto themselves should for that very reason be rendered unsociable? So by the decree of divine justice it was brought about that one people should supply the needs of another, in order, as Pliny the Roman writer says, that in this way, whatever has been produced anywhere should seem to have been destined for all."
+        },
+        {
+          "k": "3",
+          "text": "Those therefore who deny this law, destroy this most praiseworthy bond of human fellowship, remove the opportunities for doing mutual service, in a word do violence to Nature herself. For do not the ocean, navigable in every direction with which God has encompassed all the earth, and the regular and the occasional winds which blow now from one quarter and now from another, offer sufficient proof that Nature has given to all peoples a right of access to all other peoples?"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "label": "Chapter V — the sea cannot be owned",
+      "cite": "ML V",
+      "units": [
+        {
+          "k": "1",
+          "text": "The air belongs to this class of things for two reasons. First, it is not susceptible of occupation; and second its common use is destined for all men. For the same reasons the sea is common to all, because it is so limitless that it cannot become a possession of any one, and because it is adapted for the use of all, whether we consider it from the point of view of navigation or of fisheries."
+        },
+        {
+          "k": "2",
+          "text": "Therefore the sea can in no way become the private property of any one, because nature not only allows but enjoins its common use. Neither can the shore become the private property of any one. The following qualification, however, must be made. If any part of these things is by nature susceptible of occupation, it may become the property of the one who occupies it only so far as such occupation does not affect its common use."
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "label": "Chapter XIII — maintaining the right of trade",
+      "cite": "ML XIII",
+      "units": [
+        {
+          "k": "1",
+          "text": "Wherefore since both law and equity demand that trade with the East Indies be as free to us as to any one else, it follows that we are to maintain at all hazards that freedom which is ours by nature, either by coming to a peace agreement with the Spaniards, or by concluding a treaty, or by continuing the war."
+        },
+        {
+          "k": "2",
+          "text": "But if we are driven into war by the injustice of our enemies, the justice of our cause ought to bring hope and confidence in a happy outcome. \"For,\" as Demosthenes has said, \"every one fights his hardest to recover what he has lost; but when men endeavor to gain at the expense of others it is not so.\""
+        }
+      ]
+    }
+  ],
+  "exec": [
+    "Mare Liberum is the charter document of every open-access regime an international business depends on: freedom of navigation, non-discriminatory market access, the treatment of sea lanes, spectrum, and — by direct doctrinal descent — outer space and the deep seabed as commons. Chapter I's underlying economics is comparative advantage avant la lettre: regions differ, therefore exchange is natural, therefore access is a right. When today's debates pit 'open seas' against exclusive economic zones, data-localization rules, or export-control regimes, they are re-arguing Grotius against his Portuguese opponents — and against Selden's answering Mare Clausum (1635), which is not in this corpus only because the argument's structure is fully visible from Grotius's side.",
+    "Two features repay an executive's attention. First, the provenance: the most durable piece of international legal architecture in the modern world began as commissioned advocacy for a joint-stock company defending its market access — a reminder that firms are not merely subject to the trading order but historically co-authors of it, a point worth remembering in an era when companies again find themselves de facto parties to sanctions regimes, standards wars and chokepoint politics. Second, the closing chapter's realism: a right of access is maintained 'by peace, by treaty, or by war' — rules persist only where someone is prepared to bear the cost of upholding them, which is the uncomfortable premise beneath every conversation about de-risking, freedom of navigation operations, and the security guarantees under which global supply chains actually sail."
+  ]
+}

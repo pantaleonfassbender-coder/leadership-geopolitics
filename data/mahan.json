@@ -1,0 +1,53 @@
+{
+  "headnote": [
+    "Alfred Thayer Mahan (1840–1914), a reflective and initially reluctant U.S. Navy captain, delivered the lectures that became The Influence of Sea Power upon History, 1660–1783 (1890) at the newly founded Naval War College. The book made him the most internationally influential strategic writer of his generation — read closely in London, Berlin and Tokyo, and cited in every subsequent debate about maritime commerce and national power. Its method is the one this whole site is built on: extract from history the conditions that do not change. Mahan's claim is that strategy, unlike tactics, rests on principles 'belonging to the unchangeable order of things,' and his six conditions of sea power are offered as exactly such constants.",
+    "The excerpts give the two foundations: the sea as 'a wide common' crossed by well-worn trade routes whose control is the real prize; and the six principal conditions affecting sea power — geographical position, physical conformation, extent of territory, population, character of the people, character of government — with the strategic reading of geographical position. The text is Mahan's original English of 1890."
+  ],
+  "sections": [
+    {
+      "id": "common",
+      "label": "Chapter I — the wide common",
+      "cite": "ISP I",
+      "units": [
+        {
+          "k": "1",
+          "text": "The first and most obvious light in which the sea presents itself from the political and social point of view is that of a great highway; or better, perhaps, of a wide common, over which men may pass in all directions, but on which some well-worn paths show that controlling reasons have led them to choose certain lines of travel rather than others. These lines of travel are called trade routes; and the reasons which have determined them are to be sought in the history of the world."
+        },
+        {
+          "k": "2",
+          "text": "Notwithstanding all the familiar and unfamiliar dangers of the sea, both travel and traffic by water have always been easier and cheaper than by land. The commercial greatness of Holland was due not only to her shipping at sea, but also to the numerous tranquil water-ways which gave such cheap and easy access to her own interior and to that of Germany."
+        }
+      ]
+    },
+    {
+      "id": "conditions",
+      "label": "Chapter I — the six conditions of sea power",
+      "cite": "ISP I",
+      "units": [
+        {
+          "k": "3",
+          "text": "The principal conditions affecting the sea power of nations may be enumerated as follows: I. Geographical Position. II. Physical Conformation, including, as connected therewith, natural productions and climate. III. Extent of Territory. IV. Number of Population. V. Character of the People. VI. Character of the Government, including therein the national institutions."
+        },
+        {
+          "k": "4",
+          "text": "It may be pointed out, in the first place, that if a nation be so situated that it is neither forced to defend itself by land nor induced to seek extension of its territory by way of the land, it has, by the very unity of its aim directed upon the sea, an advantage as compared with a people one of whose boundaries is continental. This has been a great advantage to England over both France and Holland as a sea power. The strength of the latter was early exhausted by the necessity of keeping up a large army and carrying on expensive wars to preserve her independence; while the policy of France was constantly diverted, sometimes wisely and sometimes most foolishly, from the sea to projects of continental extension. These military efforts expended wealth; whereas a wiser and consistent use of her geographical position would have added to it."
+        }
+      ]
+    },
+    {
+      "id": "strategy",
+      "label": "Chapter I — the unchanging foundations of strategy",
+      "cite": "ISP I",
+      "units": [
+        {
+          "k": "5",
+          "text": "Such discussions, while undoubtedly embracing a wider field, yet fall mainly within the province of strategy, as distinguished from tactics. The considerations and principles which enter into them belong to the unchangeable, or unchanging, order of things, remaining the same, in cause and effect, from age to age. They belong, as it were, to the Order of Nature, of whose stability so much is heard in our day; whereas tactics, using as its instruments the weapons made by man, shares in the change and progress of the race from generation to generation. From time to time the superstructure of tactics has to be altered or wholly torn down; but the old foundations of strategy so far remain, as though laid upon a rock."
+        }
+      ]
+    }
+  ],
+  "exec": [
+    "Mahan is the theorist of infrastructure as strategy, and his 'wide common' is the most productive single metaphor in the corpus for the platforms modern business runs on: the ocean then, and today also the container system, subsea cables, payment rails, cloud regions, and standards bodies — commons in principle, but crossed by 'well-worn paths' whose chokepoints (Malacca and Hormuz; TSMC and SWIFT; app stores and LNG terminals) confer power on whoever can close or tax them. Roughly nine-tenths of world trade by volume still moves by sea, which is why the Red Sea diversions, Panama droughts and South China Sea frictions of the 2020s read like Mahan case studies. The executive translation is a mapping exercise: know which commons your revenue crosses, where its narrow paths run, and who patrols them.",
+    "The six conditions transfer as a durable framework for assessing any actor's positional power — location in the value chain; endowments; scale; talent pool; culture; and, decisively for Mahan, the character of governance, since institutions determine whether the other five compound. His reading of geographical position carries a sharp portfolio lesson: England's advantage was 'the very unity of its aim,' while France's strength bled away into continental diversions — the two-front problem, which in corporate form is the diversified incumbent defending legacy territory while a focused rival puts every resource into the sea. And his distinction between tactics (which obsolesce with the tools) and strategy (laid upon rock) is the reading instruction for this entire corpus: study old cases not for their weapons but for their unchanged geometry."
+  ]
+}

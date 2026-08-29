@@ -1,0 +1,84 @@
+{
+  "headnote": [
+    "Thucydides (c. 460 – c. 400 BC) commanded an Athenian squadron in the war he chronicled, failed to save Amphipolis, and spent his twenty years of exile interviewing both sides. The result — unfinished, austere, and deliberately written as 'a possession for all time' rather than a prize-composition — is the founding text of power-political analysis. Four passages carry most of its analytical weight, and all four are here: the diagnosis of the war's 'truest cause' as a power transition; the portrait of Pericles as the leader who could contradict his own stakeholders; the anatomy of how language and trust decay under competitive pressure at Corcyra; and the Melian dialogue, the most unsparing negotiation transcript in world literature.",
+    "The translation is Richard Crawley's of 1874, still the standard public-domain English text and the source of the wording — 'the strong do what they can and the weak suffer what they must' — in which the dialogue is usually quoted."
+  ],
+  "sections": [
+    {
+      "id": "i23",
+      "label": "Book I, 23 — the truest cause of the war",
+      "cite": "Thuc. I.23",
+      "units": [
+        {
+          "k": "1",
+          "text": "To the question why they broke the treaty, I answer by placing first an account of their grounds of complaint and points of difference, that no one may ever have to ask the immediate cause which plunged the Hellenes into a war of such magnitude. The real cause I consider to be the one which was formally most kept out of sight. The growth of the power of Athens, and the alarm which this inspired in Lacedaemon, made war inevitable. Still it is well to give the grounds alleged by either side which led to the dissolution of the treaty and the breaking out of the war."
+        }
+      ]
+    },
+    {
+      "id": "ii65",
+      "label": "Book II, 65 — the judgment on Pericles",
+      "cite": "Thuc. II.65",
+      "units": [
+        {
+          "k": "1",
+          "text": "Pericles indeed, by his rank, ability, and known integrity, was enabled to exercise an independent control over the multitude — in short, to lead them instead of being led by them; for as he never sought power by improper means, he was never compelled to flatter them, but, on the contrary, enjoyed so high an estimation that he could afford to anger them by contradiction. Whenever he saw them unseasonably and insolently elated, he would with a word reduce them to alarm; on the other hand, if they fell victims to a panic, he could at once restore them to confidence. In short, what was nominally a democracy became in his hands government by the first citizen."
+        },
+        {
+          "k": "2",
+          "text": "With his successors it was different. More on a level with one another, and each grasping at supremacy, they ended by committing even the conduct of state affairs to the whims of the multitude. This, as might have been expected in a great and sovereign state, produced a host of blunders, and amongst them the Sicilian expedition; though this failed not so much through a miscalculation of the power of those against whom it was sent, as through a fault in the senders in not taking the best measures afterwards to assist those who had gone out, but choosing rather to occupy themselves with private cabals for the leadership of the commons, by which they not only paralysed operations in the field, but also first introduced civil discord at home."
+        }
+      ]
+    },
+    {
+      "id": "iii82",
+      "label": "Book III, 82 — the corrosion of norms at Corcyra",
+      "cite": "Thuc. III.82",
+      "units": [
+        {
+          "k": "1",
+          "text": "The sufferings which revolution entailed upon the cities were many and terrible, such as have occurred and always will occur, as long as the nature of mankind remains the same; though in a severer or milder form, and varying in their symptoms, according to the variety of the particular cases. In peace and prosperity, states and individuals have better sentiments, because they do not find themselves suddenly confronted with imperious necessities; but war takes away the easy supply of daily wants, and so proves a rough master, that brings most men's characters to a level with their fortunes."
+        },
+        {
+          "k": "2",
+          "text": "Words had to change their ordinary meaning and to take that which was now given them. Reckless audacity came to be considered the courage of a loyal ally; prudent hesitation, specious cowardice; moderation was held to be a cloak for unmanliness; ability to see all sides of a question, inaptness to act on any. Frantic violence became the attribute of manliness; cautious plotting, a justifiable means of self-defence. The advocate of extreme measures was always trustworthy; his opponent a man to be suspected."
+        },
+        {
+          "k": "3",
+          "text": "The cause of all these evils was the lust for power arising from greed and ambition; and from these passions proceeded the violence of parties once engaged in contention. The leaders in the cities, each provided with the fairest professions, on the one side with the cry of political equality of the people, on the other of a moderate aristocracy, sought prizes for themselves in those public interests which they pretended to cherish, and, recoiling from no means in their struggles for ascendancy engaged in the direst excesses."
+        },
+        {
+          "k": "4",
+          "text": "Thus every form of iniquity took root in the Hellenic countries by reason of the troubles. The ancient simplicity into which honour so largely entered was laughed down and disappeared; and society became divided into camps in which no man trusted his fellow."
+        }
+      ]
+    },
+    {
+      "id": "melian",
+      "label": "Book V, 89–97 — the Melian dialogue",
+      "cite": "Thuc. V",
+      "units": [
+        {
+          "k": "89",
+          "text": "Athenians. For ourselves, we shall not trouble you with specious pretences — either of how we have a right to our empire because we overthrew the Mede, or are now attacking you because of wrong that you have done us — and make a long speech which would not be believed; and in return we hope that you, instead of thinking to influence us by saying that you did not join the Lacedaemonians, although their colonists, or that you have done us no wrong, will aim at what is feasible, holding in view the real sentiments of us both; since you know as well as we do that right, as the world goes, is only in question between equals in power, while the strong do what they can and the weak suffer what they must."
+        },
+        {
+          "k": "90",
+          "text": "Melians. As we think, at any rate, it is expedient — we speak as we are obliged, since you enjoin us to let right alone and talk only of interest — that you should not destroy what is our common protection, the privilege of being allowed in danger to invoke what is fair and right, and even to profit by arguments not strictly valid if they can be got to pass current. And you are as much interested in this as any, as your fall would be a signal for the heaviest vengeance and an example for the world to meditate upon."
+        },
+        {
+          "k": "94-95",
+          "text": "Melians. So that you would not consent to our being neutral, friends instead of enemies, but allies of neither side. — Athenians. No; for your hostility cannot so much hurt us as your friendship will be an argument to our subjects of our weakness, and your enmity of our power."
+        },
+        {
+          "k": "97",
+          "text": "Athenians. As far as right goes they think one has as much of it as the other, and that if any maintain their independence it is because they are strong, and that if we do not molest them it is because we are afraid; so that besides extending our empire we should gain in security by your subjection; the fact that you are islanders and weaker than others rendering it all the more important that you should not succeed in baffling the masters of the sea."
+        }
+      ]
+    }
+  ],
+  "exec": [
+    "I.23 is the original statement of what is now marketed as the 'Thucydides trap': it is the incumbent's alarm at a challenger's growth, not any single grievance, that drives escalation. In markets as in geopolitics, the stated casus belli (a pricing move, a poached account, a standards dispute) is rarely the real one, and de-escalation that addresses only the stated grievance addresses nothing. II.65 is the most compact description ever written of the difference between leading stakeholders and being led by them — Pericles could 'afford to anger them by contradiction' because he had never bought support cheaply; his successors, competing for internal position, outsourced judgment to sentiment, and the Sicilian disaster was decided not at the front but in the politics of headquarters.",
+    "III.82 describes what happens to an organization's language in a fight for survival — when 'reckless audacity' is rebranded as loyalty and deliberation as weakness, the information system of the firm is already broken; executives can use it as a diagnostic checklist for their own crisis culture. The Melian dialogue, finally, is required reading on asymmetric negotiation: the Athenians' logic is impeccable in the single round and catastrophic in the repeated game — Melos fell, and the fleet that took it sailed on to Sicily. The dialogue teaches both sides' lessons at once: for the weaker party, that appeals to fairness persuade only equals; for the stronger, that the systematic destruction of 'what is our common protection' eventually removes the norms on which the strong themselves will one day need to call."
+  ]
+}

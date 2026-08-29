@@ -1,0 +1,61 @@
+{
+  "headnote": [
+    "Thomas Hobbes (1588–1679) wrote Leviathan (1651) in Parisian exile while England destroyed itself in civil war, and the book's celebrated thirteenth chapter distils that experience into the most influential thought experiment in political theory: where there is no common power to enforce agreements, rational actors are driven into a 'war of every man against every man' — not constant fighting, but a standing disposition to it, like foul weather — in which investment, industry and exchange become irrational. The chapter also contains, almost in passing, the founding observation of international-relations theory: sovereigns, having no power above them, remain permanently in this posture toward one another, 'their weapons pointing, and their eyes fixed on one another.'",
+    "The excerpts give the argument in Hobbes's own seventeenth-century English (spelling and capitals as printed): the restless pursuit of power as a structural rather than psychological fact (chapter XI); the incommodities of ungoverned competition and the gladiator posture of states (chapter XIII); and the conclusion that 'Covenants, without the Sword, are but Words' (chapter XVII)."
+  ],
+  "sections": [
+    {
+      "id": "c11",
+      "label": "Chapter XI — the restless desire of power",
+      "cite": "Lev. XI",
+      "units": [
+        {
+          "k": "1",
+          "text": "So that in the first place, I put for a generall inclination of all mankind, a perpetuall and restlesse desire of Power after power, that ceaseth onely in Death. And the cause of this, is not alwayes that a man hopes for a more intensive delight, than he has already attained to; or that he cannot be content with a moderate power: but because he cannot assure the power and means to live well, which he hath present, without the acquisition of more."
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "label": "Chapter XIII — the war of every man against every man",
+      "cite": "Lev. XIII",
+      "units": [
+        {
+          "k": "1",
+          "text": "For as the nature of Foule weather, lyeth not in a showre or two of rain; but in an inclination thereto of many dayes together: So the nature of War, consisteth not in actuall fighting; but in the known disposition thereto, during all the time there is no assurance to the contrary. All other time is PEACE."
+        },
+        {
+          "k": "2",
+          "text": "Whatsoever therefore is consequent to a time of Warre, where every man is Enemy to every man; the same is consequent to the time, wherein men live without other security, than what their own strength, and their own invention shall furnish them withall. In such condition, there is no place for Industry; because the fruit thereof is uncertain; and consequently no Culture of the Earth; no Navigation, nor use of the commodities that may be imported by Sea; no commodious Building; no Instruments of moving, and removing such things as require much force; no Knowledge of the face of the Earth; no account of Time; no Arts; no Letters; no Society; and which is worst of all, continuall feare, and danger of violent death; And the life of man, solitary, poore, nasty, brutish, and short."
+        },
+        {
+          "k": "3",
+          "text": "But though there had never been any time, wherein particular men were in a condition of warre one against another; yet in all times, Kings, and persons of Soveraigne authority, because of their Independency, are in continuall jealousies, and in the state and posture of Gladiators; having their weapons pointing, and their eyes fixed on one another; that is, their Forts, Garrisons, and Guns upon the Frontiers of their Kingdomes; and continuall Spyes upon their neighbours; which is a posture of War. But because they uphold thereby, the Industry of their Subjects; there does not follow from it, that misery, which accompanies the Liberty of particular men."
+        },
+        {
+          "k": "4",
+          "text": "To this warre of every man against every man, this also is consequent; that nothing can be Unjust. The notions of Right and Wrong, Justice and Injustice have there no place. Where there is no common Power, there is no Law: where no Law, no Injustice. Force, and Fraud, are in warre the two Cardinall vertues."
+        }
+      ]
+    },
+    {
+      "id": "c17",
+      "label": "Chapter XVII — covenants without the sword",
+      "cite": "Lev. XVII",
+      "units": [
+        {
+          "k": "1",
+          "text": "For the Lawes of Nature (as Justice, Equity, Modesty, Mercy, and (in summe) Doing To Others, As Wee Would Be Done To,) of themselves, without the terrour of some Power, to cause them to be observed, are contrary to our naturall Passions, that carry us to Partiality, Pride, Revenge, and the like. And Covenants, without the Sword, are but Words, and of no strength to secure a man at all."
+        },
+        {
+          "k": "2",
+          "text": "And as small Familyes did then; so now do Cities and Kingdomes which are but greater Families (for their own security) enlarge their Dominions, upon all pretences of danger, and fear of Invasion, or assistance that may be given to Invaders."
+        }
+      ]
+    }
+  ],
+  "exec": [
+    "Chapter XIII's central economic insight is the one executives should carry: where enforcement is absent, 'there is no place for Industry; because the fruit thereof is uncertain.' Investment is a function of assurance. This is why firms pay premiums to operate under credible legal systems, why contract enforcement indices predict foreign direct investment, and why the current fragmentation of the trading order shows up first in capital-expenditure hesitancy: Hobbes's list of what disappears without security — navigation, imported commodities, building, knowledge — is a supply-chain risk register in period costume. His weather metaphor is equally practical: risk lives in the disposition to conflict, not in incidents, which is why 'no shooting yet' is never an all-clear.",
+    "The gladiator passage founds the discipline — international anarchy — inside which every geopolitical risk function operates: states watch each other permanently because no court sits above them, and Hobbes's own qualification matters — the interstate posture is tolerable, unlike private anarchy, because states meanwhile 'uphold the Industry of their Subjects.' When that qualification weakens — when great-power rivalry starts taxing rather than protecting commerce — firms feel it directly. Chapter XI reframes escalation as structural, not psychological: actors accumulate power 'because he cannot assure the power and means to live well, which he hath present, without the acquisition of more' — the security dilemma, and equally the logic of defensive scale-building in winner-take-most markets. And chapter XVII gives the governance test that outlives its authoritarian conclusion: for any agreement that matters — a joint venture, a cartel-adjacent standard body, an arms-control treaty, a merger covenant — ask where the sword is: what enforcement mechanism, forfeit, or dependency makes the promise self-executing. Where the honest answer is 'none,' price the agreement as words."
+  ]
+}

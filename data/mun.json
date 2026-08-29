@@ -1,0 +1,61 @@
+{
+  "headnote": [
+    "Thomas Mun (1571–1641) was no theorist at a distance: a Levant merchant who became a director of the East India Company, he wrote England's Treasure by Forraign Trade in the early 1630s as a letter of professional instruction to his son, and it was published posthumously in 1664 — whereupon it became, in Adam Smith's words, the manifesto of 'the mercantile system' that The Wealth of Nations was written to demolish. Read directly rather than through Smith's polemic, it is two things at once: the canonical statement of trade-balance thinking ('sell more to strangers yearly than wee consume of theirs in value'), and a strikingly modern job description for the international manager — accounting, foreign exchange, tariffs, market intelligence, freight and insurance.",
+    "The text follows the 1664 edition as reprinted in the Economic Classics series (ed. W. J. Ashley, Macmillan, 1895); original seventeenth-century spelling is retained, with obvious OCR artifacts of the scan silently corrected against the printed text."
+  ],
+  "sections": [
+    {
+      "id": "c1",
+      "label": "Chapter I — the qualities of a perfect merchant",
+      "cite": "ET 1",
+      "units": [
+        {
+          "k": "1",
+          "text": "The love and service of our Country consisteth not so much in the knowledge of those duties which are to be performed by others, as in the skilful practice of that which is done by our selves; and therefore (my Son) it is now fit that I say something of the Merchant, which I hope in due time shall be thy Vocation: Yet herein are my thoughts free from all Ambition, although I rank thee in a place of so high estimation; for the Merchant is worthily called The Steward of the Kingdoms Stock, by way of Commerce with other Nations: a work of no less Reputation than Trust, which ought to be performed with great skill and conscience, that so the private gain may ever accompany the publique good."
+        },
+        {
+          "k": "2",
+          "text": "1. He ought to be a good Penman, a good Arithmetician, and a good Accomptant, by that noble order of Debtor and Creditor, which is used onely amongst Merchants; also to be expert in the order and form of Charter-parties, Bills of Lading, Invoyces, Contracts, Bills of Exchange, and Policies of Ensurance. 2. He ought to know the Measures, Weights, and Monies of all forraign Countries, especially where we have Trade, & the Monies not onely by their several denominations, but also by their intrinsique values in weight & fineness, compared with the Standard of this Kingdome, without which he cannot well direct his affaires."
+        },
+        {
+          "k": "3",
+          "text": "3. He ought to know the Customs, Tolls, Taxes, Impositions, Conducts, and other charges upon all manner of Merchandize exported or imported to and from the said Forraign Countries. 4. He ought to know in what several commodities each Country abounds, and what be the wares which they want, and how and from whence they are furnished with the same. 5. He ought to understand, and to be a diligent observer of the rates of Exchanges by Bills, from one State to another, whereby he may the better direct his affairs, and remit over and receive home his Monies to the most advantage possible."
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": "Chapter II — the rule of the balance of trade",
+      "cite": "ET 2",
+      "units": [
+        {
+          "k": "1",
+          "text": "Although a Kingdom may be enriched by gifts received, or by purchase taken from some other Nations, yet these are things uncertain and of small consideration when they happen. The ordinary means therefore to encrease our wealth and treasure is by Forraign Trade, wherein wee must ever observe this rule; to sell more to strangers yearly than wee consume of theirs in value. For suppose that when this Kingdom is plentifully served with the Cloth, Lead, Tinn, Iron, Fish and other native commodities, we doe yearly export the overplus to forraign Countries to the value of twenty two hundred thousand pounds; by which means we are enabled beyond the Seas to buy and bring in forraign wares for our use and Consumptions, to the value of twenty hundred thousand pounds; By this order duly kept in our trading, we may rest assured that the Kingdom shall be enriched yearly two hundred thousand pounds, which must be brought to us in so much Treasure; because that part of our stock which is not returned to us in wares must necessarily be brought home in treasure."
+        },
+        {
+          "k": "2",
+          "text": "For in this case it cometh to pass in the stock of a Kingdom, as in the estate of a private man; who is supposed to have one thousand pounds yearly revenue and two thousand pounds of ready money in his Chest: If such a man through excess shall spend one thousand five hundred pounds per annum, all his ready mony will be gone in four years; and in the like time his said money will be doubled if he take a Frugal course to spend but five hundred pounds per annum; which rule never faileth likewise in the Commonwealth."
+        }
+      ]
+    },
+    {
+      "id": "c21",
+      "label": "Chapter XXI — the conclusion",
+      "cite": "ET 21",
+      "units": [
+        {
+          "k": "1",
+          "text": "But let the Merchants exchange be at a high rate, or at a low rate, or at the Par pro pari, or put down altogether; Let Forraign Princes enhance their Coins, or debase their Standards, and let His Majesty do the like, or keep them constant as they now stand; Let forraign Coins pass current here in all payments at higher rates than they are worth at the Mint; Let the Statutes for employments by Strangers stand in force or be repealed; Let the meer Exchanger do his worst; Let Princes oppress, Lawyers extort, Usurers bite, Prodigals wast, and lastly let Merchants carry out what mony they shall have occasion to use in traffique. Yet all these actions can work no other effects in the course of trade than is declared in this discourse. For so much Treasure only will be brought in or carried out of a Commonwealth, as the Forraign Trade doth over or under ballance in value. And this must come to pass by a Necessity beyond all resistance."
+        },
+        {
+          "k": "2",
+          "text": "Behold then the true form and worth of forraign Trade, which is, The great Revenue of the King, The honour of the Kingdom, The Noble profession of the Merchant, The School of our Arts, The supply of our wants, The employment of our poor, The improvement of our Lands, The Nurcery of our Mariners, The walls of the Kingdoms, The means of our Treasure, The Sinnews of our wars, The terror of our Enemies. For all which great and weighty reasons, do so many well governed States highly countenance the profession, and carefully cherish the action, not only with Policy to encrease it, but also with power to protect it from all forraign injuries: because they know it is a Principal in Reason of State to maintain and defend that which doth Support them and their estates."
+        }
+      ]
+    }
+  ],
+  "exec": [
+    "Mun matters to executives for three reasons. First, as intellectual history that keeps repeating: the trade-balance rule of chapter II — exports good, imports a leakage, the surplus 'must be brought to us in so much Treasure' — is the intuition behind every era of tariff politics, including the present one, and a leadership team exposed to trade policy should understand the mercantilist logic from the inside, because that is the logic their host governments will act on. Smith's rebuttal is in this corpus three works later; the two should be read as a pair. Second, chapter I is evidence of how old the profession of international general management is: double-entry accounts, FX exposure, customs regimes, product-market intelligence — Mun's syllabus for his son is recognizably the syllabus of a modern country-manager rotation, framed by an ideal worth keeping: the merchant as 'Steward of the Kingdoms Stock,' whose 'private gain may ever accompany the publique good.'",
+    "Third, the conclusion contains a claim of real analytical force: the great litany of chapter XXI — let princes debase, statutes change, exchangers do their worst — asserts that policy interventions cannot override the underlying flows of trade, 'by a Necessity beyond all resistance.' Mun's mechanism was wrong in detail, but the executive lesson stands: fundamentals defeat decrees, and capital-flow arithmetic wins arguments against wishful regulation. His final sentence — that it is 'a Principal in Reason of State' to defend the commerce that supports the state — is the seventeenth-century original of the proposition that now runs through every economic-security white paper: trade is not adjacent to national power; it is a constituent of it."
+  ]
+}

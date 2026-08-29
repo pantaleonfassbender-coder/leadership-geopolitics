@@ -1,0 +1,72 @@
+{
+  "headnote": [
+    "Carl von Clausewitz (1780–1831) fought Napoleon from Jena to Waterloo, directed the Prussian war college, and died of cholera leaving On War (Vom Kriege, 1832) unfinished — a fact he knew and flagged, asking that the whole be read in light of Book I, chapter 1, the only part he considered complete. The work's power lies in its refusal of both extremes: against the geometricians of strategy it insists that war is a realm of friction, chance and passion that no formula tames; against the romantics it insists that war remains an instrument of policy, never an end. Between those poles it produced the most transferable vocabulary ever coined for competitive action under uncertainty: friction, the fog of unreliable intelligence, the culminating point, the wonderful trinity.",
+    "The excerpts give the four load-bearing ideas: war as continuation of policy (I.1 §24); the trinity of passion, chance and reason (I.1 §28); uncertainty and the unreliability of information (I.3); and friction — 'everything is very simple in War, but the simplest thing is difficult' (I.7). The translation is J. J. Graham's (1873)."
+  ],
+  "sections": [
+    {
+      "id": "s24",
+      "label": "Book I, ch. 1, §24 — war is a continuation of policy",
+      "cite": "OW I.1 §24",
+      "units": [
+        {
+          "k": "1",
+          "text": "We see, therefore, that War is not merely a political act, but also a real political instrument, a continuation of political commerce, a carrying out of the same by other means. All beyond this which is strictly peculiar to War relates merely to the peculiar nature of the means which it uses. That the tendencies and views of policy shall not be incompatible with these means, the Art of War in general and the Commander in each particular case may demand, and this claim is truly not a trifling one. But however powerfully this may react on political views in particular cases, still it must always be regarded as only a modification of them; for the political view is the object, War is the means, and the means must always include the object in our conception."
+        }
+      ]
+    },
+    {
+      "id": "s28",
+      "label": "Book I, ch. 1, §28 — the wonderful trinity",
+      "cite": "OW I.1 §28",
+      "units": [
+        {
+          "k": "1",
+          "text": "War is, therefore, not only chameleon-like in character, because it changes its colour in some degree in each particular case, but it is also, as a whole, in relation to the predominant tendencies which are in it, a wonderful trinity, composed of the original violence of its elements, hatred and animosity, which may be looked upon as blind instinct; of the play of probabilities and chance, which make it a free activity of the soul; and of the subordinate nature of a political instrument, by which it belongs purely to the reason. The first of these three phases concerns more the people; the second, more the General and his Army; the third, more the Government."
+        },
+        {
+          "k": "2",
+          "text": "These three tendencies, which appear like so many different law-givers, are deeply rooted in the nature of the subject, and at the same time variable in degree. A theory which would leave any one of them out of account, or set up any arbitrary relation between them, would immediately become involved in such a contradiction with the reality, that it might be regarded as destroyed at once by that alone."
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": "Book I, ch. 3 — uncertainty and chance",
+      "cite": "OW I.3",
+      "units": [
+        {
+          "k": "1",
+          "text": "War is the province of uncertainty: three-fourths of those things upon which action in War must be calculated, are hidden more or less in the clouds of great uncertainty. Here, then, above all a fine and penetrating mind is called for, to search out the truth by the tact of its judgment."
+        },
+        {
+          "k": "2",
+          "text": "War is the province of chance. In no sphere of human activity is such a margin to be left for this intruder, because none is so much in constant contact with him on all sides. He increases the uncertainty of every circumstance, and deranges the course of events. From this uncertainty of all intelligence and suppositions, this continual interposition of chance, the actor in War constantly finds things different from his expectations; and this cannot fail to have an influence on his plans, or at least on the presumptions connected with these plans."
+        },
+        {
+          "k": "3",
+          "text": "But it more often happens that the correction of one premise, and the knowledge of chance events which have arisen, are not sufficient to overthrow our plans completely, but only suffice to produce hesitation. Our knowledge of circumstances has increased, but our uncertainty, instead of having diminished, has only increased."
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "label": "Book I, ch. 7 — friction",
+      "cite": "OW I.7",
+      "units": [
+        {
+          "k": "1",
+          "text": "Everything is very simple in War, but the simplest thing is difficult. These difficulties accumulate and produce a friction which no man can imagine exactly who has not seen War. … So in War, through the influence of an infinity of petty circumstances, which cannot properly be described on paper, things disappoint us, and we fall short of the mark. A powerful iron will overcomes this friction; it crushes the obstacles, but certainly the machine along with them."
+        },
+        {
+          "k": "2",
+          "text": "Friction is the only conception which in a general way corresponds to that which distinguishes real War from War on paper. The military machine, the Army and all belonging to it, is in fact simple, and appears on this account easy to manage. But let us reflect that no part of it is in one piece, that it is composed entirely of individuals, each of which keeps up its own friction in all directions. … The battalion always remains composed of a number of men, of whom, if chance so wills, the most insignificant is able to occasion delay and even irregularity."
+        }
+      ]
+    }
+  ],
+  "exec": [
+    "Clausewitz translates to executive work more directly than any military writer because his subject is not tactics but the epistemology of execution. §24 is the governance principle: operations are the continuation of strategy, and 'the political view is the object' — when a business unit's campaigns start driving corporate purpose rather than serving it, the Clausewitzian alarm should sound; the means must always include the object. The trinity (§28) is a diagnostic for any major undertaking: every campaign runs on passion (the energy and morale of the people), probability (the skill and luck of the operators), and reason (the policy of the leadership), and 'a theory which would leave any one of them out of account' — a transformation with no emotional constituency, a plan with no room for chance, an energized team with no governing object — 'is destroyed at once by that alone.'",
+    "Book I, chapter 3 should be laminated for planning cycles: three-fourths of decision-relevant facts are 'hidden in the clouds of great uncertainty,' most incoming information is contradictory or false in proportion, and — the finest observation — more information frequently increases hesitation rather than confidence. The executive disciplines that answer it are Clausewitz's own: judgment trained to 'search out the truth by the tact of its judgment,' and standing decisions about what signals will trigger what responses, made before the fog arrives. Friction (I.7) is why integration plans, ERP migrations and market entries fall short of paper: organizations are 'composed entirely of individuals, each of which keeps up its own friction in all directions.' His warning about the iron will that 'crushes the obstacles, but certainly the machine along with them' is the best one-sentence review ever written of a certain style of turnaround leadership."
+  ]
+}

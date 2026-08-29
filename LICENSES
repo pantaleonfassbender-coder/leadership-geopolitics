@@ -1,0 +1,59 @@
+Historia Magistra — leadership-geopolitics
+Licensing, by layer
+===========================================
+
+1. PRIMARY TEXTS (the excerpted works themselves)
+
+All primary texts on this site are in the United States public domain:
+
+- Original English works by age: Bacon, Essays (1625); Hobbes, Leviathan (1651);
+  Mun, England's Treasure by Forraign Trade (1664); Smith, The Wealth of Nations
+  (1776); Mahan, The Influence of Sea Power upon History (1890); Mackinder,
+  "The Geographical Pivot of History" (The Geographical Journal, 1904).
+- Public-domain translations: Thucydides tr. Crawley (1874); Sun Tzu tr. Giles
+  (1910); Kautilya tr. Shamasastry (1915); Machiavelli tr. Marriott (1908);
+  Grotius tr. Magoffin (1916); Clausewitz tr. Graham (1873).
+
+No copyright is claimed in these texts, and none can be.
+
+2. EDITORIAL MATTER
+
+The site's own editorial matter — the introduction essay, headnotes, executive
+lenses, concordance glosses, and method notes — is licensed under the Creative
+Commons Attribution 4.0 International licence (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+Attribution: "Historia Magistra (leadership-geopolitics), Pantaleon Fassbender".
+
+3. CODE
+
+The site's code (index.html, style.css, app.js) is licensed under the MIT licence:
+
+MIT License
+
+Copyright (c) 2026 Pantaleon Fassbender
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+4. DERIVED DATA
+
+The structured excerpt data files (data/*.json), to the extent the selection
+and arrangement attract any rights at all, are dedicated to the public domain
+under CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
+(The editorial prose fields inside them — "headnote" and "exec" — remain
+CC BY 4.0 as under section 2.)

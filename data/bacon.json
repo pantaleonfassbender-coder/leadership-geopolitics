@@ -1,0 +1,65 @@
+{
+  "headnote": [
+    "Francis Bacon (1561–1626) — lawyer, parliamentarian, Lord Chancellor until his fall for bribery in 1621, and philosopher of the scientific method — wrote his Essays across three decades of proximity to power; the final 1625 edition is the voice of a superbly informed insider compressing statecraft into aphorism. Three essays are excerpted here. 'Of Empire' contains the classic formulation of balance-of-power vigilance: princes must 'keep due sentinel' that no neighbour grows disproportionately, by territory, trade or approaches. 'Of Innovations' is a complete theory of change management in six hundred words. 'Of the True Greatness of Kingdoms and Estates' is an essay in national capability assessment, warning that nothing in civil affairs is 'more subject to error, than the right valuation... of the power and forces of an estate.'",
+    "The text is Bacon's original English of 1625, lightly modernized in spelling by the standard editions from which the Project Gutenberg text derives."
+  ],
+  "sections": [
+    {
+      "id": "empire",
+      "label": "Of Empire — the sentinel",
+      "cite": "Ess. Emp.",
+      "units": [
+        {
+          "k": "1",
+          "text": "First for their neighbors; there can no general rule be given (for occasions are so variable), save one, which ever holdeth, which is, that princes do keep due sentinel, that none of their neighbors do ever grow so (by increase of territory, by embracing of trade, by approaches, or the like), as they become more able to annoy them, than they were. And this is generally the work of standing counsels, to foresee and to hinder it. During that triumvirate of kings, King Henry the Eighth of England, Francis the First King of France, and Charles the Fifth Emperor, there was such a watch kept, that none of the three could win a palm of ground, but the other two would straightways balance it, either by confederation, or, if need were, by a war; and would not in any wise take up peace at interest."
+        },
+        {
+          "k": "2",
+          "text": "Neither is the opinion of some of the Schoolmen, to be received, that a war cannot justly be made, but upon a precedent injury or provocation. For there is no question, but a just fear of an imminent danger, though there be no blow given, is a lawful cause of a war."
+        }
+      ]
+    },
+    {
+      "id": "innovations",
+      "label": "Of Innovations",
+      "cite": "Ess. Innov.",
+      "units": [
+        {
+          "k": "1",
+          "text": "As the births of living creatures, at first are ill-shapen, so are all innovations, which are the births of time. … Surely every medicine is an innovation; and he that will not apply new remedies, must expect new evils; for time is the greatest innovator; and if time of course alter things to the worse, and wisdom and counsel shall not alter them to the better, what shall be the end?"
+        },
+        {
+          "k": "2",
+          "text": "It is true, that what is settled by custom, though it be not good, yet at least it is fit; and those things which have long gone together, are, as it were, confederate within themselves; whereas new things piece not so well; but though they help by their utility, yet they trouble by their inconformity. Besides, they are like strangers; more admired, and less favored. All this is true, if time stood still; which contrariwise moveth so round, that a froward retention of custom, is as turbulent a thing as an innovation; and they that reverence too much old times, are but a scorn to the new."
+        },
+        {
+          "k": "3",
+          "text": "It were good, therefore, that men in their innovations would follow the example of time itself; which indeed innovateth greatly, but quietly, by degrees scarce to be perceived. For otherwise, whatsoever is new is unlooked for; and ever it mends some, and pairs others; and he that is holpen, takes it for a fortune, and thanks the time; and he that is hurt, for a wrong, and imputeth it to the author. It is good also, not to try experiments in states, except the necessity be urgent, or the utility evident; and well to beware, that it be the reformation, that draweth on the change, and not the desire of change, that pretendeth the reformation."
+        }
+      ]
+    },
+    {
+      "id": "greatness",
+      "label": "Of the True Greatness of Kingdoms and Estates",
+      "cite": "Ess. Great.",
+      "units": [
+        {
+          "k": "1",
+          "text": "The greatness of an estate, in bulk and territory, doth fall under measure; and the greatness of finances and revenue, doth fall under computation. The population may appear by musters; and the number and greatness of cities and towns by cards and maps. But yet there is not any thing amongst civil affairs more subject to error, than the right valuation and true judgment concerning the power and forces of an estate. The kingdom of heaven is compared, not to any great kernel or nut, but to a grain of mustard-seed: which is one of the least grains, but hath in it a property and spirit hastily to get up and spread. So are there states, great in territory, and yet not apt to enlarge or command; and some that have but a small dimension of stem, and yet apt to be the foundations of great monarchies."
+        },
+        {
+          "k": "2",
+          "text": "Walled towns, stored arsenals and armories, goodly races of horse, chariots of war, elephants, ordnance, artillery, and the like; all this is but a sheep in a lion's skin, except the breed and disposition of the people, be stout and warlike. Nay, number (itself) in armies importeth not much, where the people is of weak courage; for (as Virgil saith) It never troubles a wolf, how many the sheep be."
+        },
+        {
+          "k": "3",
+          "text": "Neither is money the sinews of war (as it is trivially said), where the sinews of men's arms, in base and effeminate people, are failing. For Solon said well to Croesus (when in ostentation he showed him his gold), Sir, if any other come, that hath better iron, than you, he will be master of all this gold."
+        }
+      ]
+    }
+  ],
+  "exec": [
+    "'Of Empire' describes competitor monitoring as a standing organizational function, not an episodic study: the sentinel watches for growth 'by increase of territory, by embracing of trade, by approaches' — market share, adjacent-market entry, and positioning moves — and the response discipline of Bacon's triumvirate (balance every gain 'straightways', never 'take up peace at interest') is a warning against deferring competitive responses for the sake of short-term comfort. His defence of preventive action on 'just fear of an imminent danger' is the aggressive edge of the same logic; modern law and modern ethics rightly constrain it between states, but inside markets it describes every pre-emptive platform investment and defensive acquisition ever made.",
+    "'Of Innovations' compresses the entire change literature: incumbent arrangements are 'confederate within themselves' (integrated, self-reinforcing, hence hard to displace piecemeal); losers from change experience it as a wrong and blame the author, while winners thank their luck — so the innovator collects all the resentment and none of the credit; and standing still is not the safe option, since 'a froward retention of custom is as turbulent a thing as an innovation.' His prescription — innovate 'greatly, but quietly, by degrees scarce to be perceived,' and only where necessity is urgent or utility evident — is a theory of continuous transformation against the big-bang program. 'Of the True Greatness' addresses the hardest measurement problem in strategy: audited quantities (territory, revenue, headcount) are precisely the wrong proxies for competitive power, which lives in the 'breed and disposition' — the culture and capability — of the people; his mustard-seed states that are 'apt to be the foundations of great monarchies' are recognizable to anyone who has watched a two-pizza team unseat an incumbent with ten thousand employees and a fortress balance sheet."
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "headnote": [
+    "The thirteen chapters attributed to Master Sun (Sun Tzŭ, traditionally a general of the state of Wu, late 6th century BC) are the oldest surviving treatise on strategy and the most widely read text in this corpus among practising managers. Its core claims — that competition is decided by prior calculation and positioning rather than by the clash itself, that the highest form of victory leaves the prize intact, and that superior information is the sovereign's 'most precious faculty' — have survived translation into every strategic vocabulary from manoeuvre warfare to platform competition.",
+    "The translation is Lionel Giles's of 1910, made for the British Museum and still the reference public-domain English text. Giles interleaved the text with the classical Chinese commentators; the excerpts below give the translated text only, with Giles's numbered verses retained as citation anchors."
+  ],
+  "sections": [
+    {
+      "id": "c1",
+      "label": "Chapter I — Laying plans",
+      "cite": "AW I",
+      "units": [
+        {
+          "k": "1-4",
+          "text": "Sun Tzŭ said: The art of war is of vital importance to the State. It is a matter of life and death, a road either to safety or to ruin. Hence it is a subject of inquiry which can on no account be neglected. The art of war, then, is governed by five constant factors, to be taken into account in one's deliberations, when seeking to determine the conditions obtaining in the field. These are: (1) The Moral Law; (2) Heaven; (3) Earth; (4) The Commander; (5) Method and discipline."
+        },
+        {
+          "k": "18-20",
+          "text": "All warfare is based on deception. Hence, when able to attack, we must seem unable; when using our forces, we must seem inactive; when we are near, we must make the enemy believe we are far away; when far away, we must make him believe we are near. Hold out baits to entice the enemy. Feign disorder, and crush him."
+        },
+        {
+          "k": "21-24",
+          "text": "If he is secure at all points, be prepared for him. If he is in superior strength, evade him. If your opponent is of choleric temper, seek to irritate him. Pretend to be weak, that he may grow arrogant. If he is taking his ease, give him no rest. If his forces are united, separate them. Attack him where he is unprepared, appear where you are not expected."
+        },
+        {
+          "k": "26",
+          "text": "Now the general who wins a battle makes many calculations in his temple ere the battle is fought. The general who loses a battle makes but few calculations beforehand. Thus do many calculations lead to victory, and few calculations to defeat: how much more no calculation at all! It is by attention to this point that I can foresee who is likely to win or lose."
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": "Chapter III — Attack by stratagem",
+      "cite": "AW III",
+      "units": [
+        {
+          "k": "1-2",
+          "text": "Sun Tzŭ said: In the practical art of war, the best thing of all is to take the enemy's country whole and intact; to shatter and destroy it is not so good. So, too, it is better to capture an army entire than to destroy it, to capture a regiment, a detachment or a company entire than to destroy them. Hence to fight and conquer in all your battles is not supreme excellence; supreme excellence consists in breaking the enemy's resistance without fighting."
+        },
+        {
+          "k": "18",
+          "text": "Hence the saying: If you know the enemy and know yourself, you need not fear the result of a hundred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat."
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "label": "Chapter VI — Weak points and strong",
+      "cite": "AW VI",
+      "units": [
+        {
+          "k": "29-32",
+          "text": "Military tactics are like unto water; for water in its natural course runs away from high places and hastens downwards. So in war, the way is to avoid what is strong and to strike at what is weak. Water shapes its course according to the nature of the ground over which it flows; the soldier works out his victory in relation to the foe whom he is facing. Therefore, just as water retains no constant shape, so in warfare there are no constant conditions."
+        },
+        {
+          "k": "33",
+          "text": "He who can modify his tactics in relation to his opponent and thereby succeed in winning, may be called a heaven-born captain."
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "label": "Chapter XIII — The use of spies",
+      "cite": "AW XIII",
+      "units": [
+        {
+          "k": "4-6",
+          "text": "Thus, what enables the wise sovereign and the good general to strike and conquer, and achieve things beyond the reach of ordinary men, is foreknowledge. Now this foreknowledge cannot be elicited from spirits; it cannot be obtained inductively from experience, nor by any deductive calculation. Knowledge of the enemy's dispositions can only be obtained from other men."
+        },
+        {
+          "k": "7-8",
+          "text": "Hence the use of spies, of whom there are five classes: (1) Local spies; (2) inward spies; (3) converted spies; (4) doomed spies; (5) surviving spies. When these five kinds of spy are all at work, none can discover the secret system. This is called \"divine manipulation of the threads.\" It is the sovereign's most precious faculty."
+        }
+      ]
+    }
+  ],
+  "exec": [
+    "Chapter III.2 is the single most transferable sentence in the corpus: the best competitive outcomes — a market entered before the incumbent notices, a standard set before rivals convene, an acquisition that pre-empts a bidding war — are the ones in which the contest never takes place. The five constant factors of I.3 map with almost embarrassing ease onto strategy diligence (purpose and alignment; environment and timing; terrain and market structure; leadership; operating discipline), and I.26 states the prosaic truth that the war-gaming, scenario work and pre-mortems done 'in the temple' before commitment are where most contests are actually decided.",
+    "Two cautions belong in any executive reading. First, the deception verses (I.18–24) describe adversarial statecraft; imported uncritically into commercial life they describe fraud, and the durable business analogue is narrower — controlling what competitors learn of your intentions, not deceiving customers or partners. Second, chapter XIII should be read as the founding charter of competitive intelligence with the same boundary drawn: 'foreknowledge cannot be elicited from spirits' — nor from dashboards alone; it comes from people close to the facts, gathered by lawful means. The water verses of chapter VI, finally, are the classical statement of strategic agility: plans must deform to the terrain and the opponent, 'for just as water retains no constant shape, so in warfare there are no constant conditions.'"
+  ]
+}

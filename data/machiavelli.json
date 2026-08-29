@@ -1,0 +1,79 @@
+{
+  "headnote": [
+    "Niccolò Machiavelli (1469–1527) spent fourteen years as second chancellor of the Florentine republic — a working diplomat and administrator, not a courtier — before the returning Medici dismissed, imprisoned and tortured him. The Prince (written 1513, printed 1532) is the fruit of that enforced retirement: a short, cold engineering manual for acquiring and holding power, addressed to rulers who must operate in the world as it is. Its scandal was never its cynicism but its method — judging political action by 'the effectual truth of the thing' rather than by the imagined republics of the mirror-for-princes tradition.",
+    "The excerpts here are chosen for their diagnostic rather than their notorious content: the hectic-fever passage on detecting trouble while it is still curable; chapter VI on why leading change makes enemies of every incumbent; chapter XV's declaration of realist method; the fox and the lion; and chapter XXV on fortune — the frankest treatment in classical literature of how much outcomes owe to luck, and what preparation can do about it. The translation is W. K. Marriott's (1908)."
+  ],
+  "sections": [
+    {
+      "id": "c3",
+      "label": "Chapter III — foreseeing troubles: the hectic fever",
+      "cite": "Prince III",
+      "units": [
+        {
+          "k": "1",
+          "text": "Because the Romans did in these instances what all prudent princes ought to do, who have to regard not only present troubles, but also future ones, for which they must prepare with every energy, because, when foreseen, it is easy to remedy them; but if you wait until they approach, the medicine is no longer in time because the malady has become incurable; for it happens in this, as the physicians say it happens in hectic fever, that in the beginning of the malady it is easy to cure but difficult to detect, but in the course of time, not having been either detected or treated in the beginning, it becomes easy to detect but difficult to cure. Thus it happens in affairs of state, for when the evils that arise have been foreseen (which it is only given to a wise man to see), they can be quickly redressed, but when, through not having been foreseen, they have been permitted to grow in a way that every one can see them, there is no longer a remedy."
+        },
+        {
+          "k": "2",
+          "text": "Therefore, the Romans, foreseeing troubles, dealt with them at once, and, even to avoid a war, would not let them come to a head, for they knew that war is not to be avoided, but is only to be put off to the advantage of others."
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "label": "Chapter VI — the introduction of a new order of things",
+      "cite": "Prince VI",
+      "units": [
+        {
+          "k": "1",
+          "text": "And it ought to be remembered that there is nothing more difficult to take in hand, more perilous to conduct, or more uncertain in its success, than to take the lead in the introduction of a new order of things, because the innovator has for enemies all those who have done well under the old conditions, and lukewarm defenders in those who may do well under the new. This coolness arises partly from fear of the opponents, who have the laws on their side, and partly from the incredulity of men, who do not readily believe in new things until they have had a long experience of them. Thus it happens that whenever those who are hostile have the opportunity to attack they do it like partisans, whilst the others defend lukewarmly, in such wise that the prince is endangered along with them."
+        },
+        {
+          "k": "2",
+          "text": "Besides the reasons mentioned, the nature of the people is variable, and whilst it is easy to persuade them, it is difficult to fix them in that persuasion. And thus it is necessary to take such measures that, when they believe no longer, it may be possible to make them believe by force."
+        }
+      ]
+    },
+    {
+      "id": "c15",
+      "label": "Chapter XV — the effectual truth",
+      "cite": "Prince XV",
+      "units": [
+        {
+          "k": "1",
+          "text": "But, it being my intention to write a thing which shall be useful to him who apprehends it, it appears to me more appropriate to follow up the real truth of the matter than the imagination of it; for many have pictured republics and principalities which in fact have never been known or seen, because how one lives is so far distant from how one ought to live, that he who neglects what is done for what ought to be done, sooner effects his ruin than his preservation; for a man who wishes to act entirely up to his professions of virtue soon meets with what destroys him among so much that is evil."
+        }
+      ]
+    },
+    {
+      "id": "c18",
+      "label": "Chapter XVIII — the fox and the lion",
+      "cite": "Prince XVIII",
+      "units": [
+        {
+          "k": "1",
+          "text": "You must know there are two ways of contesting, the one by the law, the other by force; the first method is proper to men, the second to beasts; but because the first is frequently not sufficient, it is necessary to have recourse to the second. Therefore it is necessary for a prince to understand how to avail himself of the beast and the man. … A prince, therefore, being compelled knowingly to adopt the beast, ought to choose the fox and the lion; because the lion cannot defend himself against snares and the fox cannot defend himself against wolves. Therefore, it is necessary to be a fox to discover the snares and a lion to terrify the wolves. Those who rely simply on the lion do not understand what they are about."
+        }
+      ]
+    },
+    {
+      "id": "c25",
+      "label": "Chapter XXV — fortune, and the times",
+      "cite": "Prince XXV",
+      "units": [
+        {
+          "k": "1",
+          "text": "Nevertheless, not to extinguish our free will, I hold it to be true that Fortune is the arbiter of one-half of our actions, but that she still leaves us to direct the other half, or perhaps a little less. I compare her to one of those raging rivers, which when in flood overflows the plains, sweeping away trees and buildings, bearing away the soil from place to place; everything flies before it, all yield to its violence, without being able in any way to withstand it; and yet, though its nature be such, it does not follow therefore that men, when the weather becomes fair, shall not make provision, both with defences and barriers, in such a manner that, rising again, the waters may pass away by canal, and their force be neither so unrestrained nor so dangerous. So it happens with fortune, who shows her power where valour has not prepared to resist her, and thither she turns her forces where she knows that barriers and defences have not been raised to constrain her."
+        },
+        {
+          "k": "2",
+          "text": "I believe also that he will be successful who directs his actions according to the spirit of the times, and that he whose actions do not accord with the times will not be successful. … But a man is not often found sufficiently circumspect to know how to accommodate himself to the change, both because he cannot deviate from what nature inclines him to do, and also because, having always prospered by acting in one way, he cannot be persuaded that it is well to leave it; and, therefore, the cautious man, when it is time to turn adventurous, does not know how to do it, hence he is ruined; but had he changed his conduct with the times fortune would not have changed."
+        }
+      ]
+    }
+  ],
+  "exec": [
+    "The hectic-fever passage (III) is the classical statement of the early-warning problem that now goes by names like 'weak signals' and 'pre-mortem': the dangerous risks are easy to cure while hard to detect, and by the time they are visible to everyone they are beyond treatment. It pairs with a hard corollary about deferral — a confrontation avoided is often 'only put off to the advantage of others.' Chapter VI is the most-cited passage in the change-management literature for good reason: it predicts, mechanically, why transformations stall — concentrated losers fight 'like partisans' while diffuse winners defend lukewarmly — and implies the standard remedies: secure sponsorship with real enforcement power, create early visible wins to convert the incredulous, and never mistake initial persuasion for durable commitment.",
+    "Chapter XXV deserves more boardroom attention than the fox and the lion. Its claim is precisely calibrated: roughly half of outcomes are luck, and the managerial response to luck is infrastructure — dikes built in fair weather, in the form of reserves, optionality, and scenario preparation. Its second unit describes the incumbency trap with uncomfortable accuracy: leaders repeat the style that made them successful after the times have changed, 'because, having always prospered by acting in one way, he cannot be persuaded that it is well to leave it.' Chapter XVIII, read soberly, is about adversarial environments only — where counterparties will not keep faith, pure good faith is not a strategy — but the modern executive's version of the fox is contract design, verification and audit, not deceit; reputation systems have raised the price of Machiavelli's literal advice far above its value."
+  ]
+}

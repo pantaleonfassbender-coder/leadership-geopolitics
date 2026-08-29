@@ -1,0 +1,122 @@
+[
+  {
+    "id": "thucydides",
+    "author": "Thucydides",
+    "title": "History of the Peloponnesian War",
+    "date": "c. 400 BC",
+    "line": "state",
+    "edition": "Translated by Richard Crawley (1874)",
+    "abbr": "Thuc.",
+    "blurb": "Power transitions, alliance management, the decay of norms under pressure, and what a leader is for. The oldest case study of competitive escalation on record — and still the sharpest."
+  },
+  {
+    "id": "suntzu",
+    "author": "Sun Tzŭ",
+    "title": "The Art of War",
+    "date": "c. 5th century BC",
+    "line": "strat",
+    "edition": "Translated by Lionel Giles (1910)",
+    "abbr": "AW",
+    "blurb": "Competition as a discipline of calculation, positioning and intelligence, in which the supreme achievement is to win without fighting. The shortest text in the corpus and the most quoted in boardrooms."
+  },
+  {
+    "id": "kautilya",
+    "author": "Kautilya",
+    "title": "Arthashastra",
+    "date": "c. 3rd century BC – 2nd century AD",
+    "line": "state",
+    "edition": "Translated by R. Shamasastry (1915)",
+    "abbr": "Arth.",
+    "blurb": "The most systematic management handbook of the ancient world: the elements of organized power, the geometry of rivals and allies, and a sixfold playbook of strategic postures."
+  },
+  {
+    "id": "machiavelli",
+    "author": "Niccolò Machiavelli",
+    "title": "The Prince",
+    "date": "1513 / 1532",
+    "line": "state",
+    "edition": "Translated by W. K. Marriott (1908)",
+    "abbr": "Prince",
+    "blurb": "Early detection of slow-building trouble, the brutal politics of leading change, and how to act when luck governs half of everything. Read here as diagnostics, not as cynicism."
+  },
+  {
+    "id": "grotius",
+    "author": "Hugo Grotius",
+    "title": "Mare Liberum — The Freedom of the Seas",
+    "date": "1609",
+    "line": "trade",
+    "edition": "Translated by Ralph Van Deman Magoffin (1916)",
+    "abbr": "ML",
+    "blurb": "The founding argument for open trade routes and a rules-based commercial order, written as a legal brief for a joint-stock company. Where the idea of the open global market begins."
+  },
+  {
+    "id": "bacon",
+    "author": "Francis Bacon",
+    "title": "Essays — Of Empire · Of Innovations · Of the True Greatness of Kingdoms and Estates",
+    "date": "1625",
+    "line": "state",
+    "edition": "Original English text (1625)",
+    "abbr": "Ess.",
+    "blurb": "Competitor monitoring as a standing function, innovation against the drag of custom, and why the valuation of a rival's real strength is the error-prone judgment call in strategy."
+  },
+  {
+    "id": "mun",
+    "author": "Thomas Mun",
+    "title": "England's Treasure by Forraign Trade",
+    "date": "c. 1630 / 1664",
+    "line": "trade",
+    "edition": "Original English text (1664)",
+    "abbr": "ET",
+    "blurb": "The classic statement of trade-balance thinking by a director of the East India Company — the mercantilist worldview that still returns in every era of trade war, and a period portrait of the compleat international manager."
+  },
+  {
+    "id": "hobbes",
+    "author": "Thomas Hobbes",
+    "title": "Leviathan",
+    "date": "1651",
+    "line": "state",
+    "edition": "Original English text (1651)",
+    "abbr": "Lev.",
+    "blurb": "Why competition without enforceable rules destroys investment, why sovereign actors live in permanent mutual surveillance, and why agreements need enforcement mechanisms to mean anything."
+  },
+  {
+    "id": "smith",
+    "author": "Adam Smith",
+    "title": "The Wealth of Nations, Book IV",
+    "date": "1776",
+    "line": "trade",
+    "edition": "Original English text (1776)",
+    "abbr": "WN",
+    "blurb": "The demolition of zero-sum trade thinking — and, less quoted, the concessions to security: 'defence is of much more importance than opulence.' The permanent argument between efficiency and resilience."
+  },
+  {
+    "id": "clausewitz",
+    "author": "Carl von Clausewitz",
+    "title": "On War",
+    "date": "1832",
+    "line": "strat",
+    "edition": "Translated by J. J. Graham (1873)",
+    "abbr": "OW",
+    "blurb": "Strategy under uncertainty: friction, the fog of unreliable information, and the subordination of operations to policy. The deepest text ever written on why execution diverges from plan."
+  },
+  {
+    "id": "mahan",
+    "author": "Alfred Thayer Mahan",
+    "title": "The Influence of Sea Power upon History",
+    "date": "1890",
+    "line": "strat",
+    "edition": "Original English text (1890)",
+    "abbr": "ISP",
+    "blurb": "Infrastructure as strategy: the sea as a 'wide common', trade routes as arteries, and six enduring conditions of positional power. The grammar of today's chokepoint and supply-chain debates."
+  },
+  {
+    "id": "mackinder",
+    "author": "Halford J. Mackinder",
+    "title": "The Geographical Pivot of History",
+    "date": "1904",
+    "line": "strat",
+    "edition": "Original English text (The Geographical Journal, 1904)",
+    "abbr": "GP",
+    "blurb": "The closed world system: once every market and region is claimed, every shock 'will be sharply re-echoed from the far side of the globe.' The founding paper of modern geopolitics."
+  }
+]

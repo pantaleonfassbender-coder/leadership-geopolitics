@@ -1,0 +1,50 @@
+{
+  "headnote": [
+    "Book IV of The Wealth of Nations (1776) is Adam Smith's sustained assault on 'the mercantile system' — the trade-balance doctrine whose classic statement, Mun's England's Treasure, stands four works earlier in this corpus; Smith names Mun's title as 'a fundamental maxim in the political economy, not of England only, but of all other commercial countries.' The excerpts here are chosen to show both edges of Smith's argument, because the second is routinely forgotten. The famous edge: trade is positive-sum, the jealousy of merchants dressed up as national interest is 'the sneaking arts of underling tradesmen... erected into political maxims,' and commerce ought to be 'a bond of union and friendship' among nations. The forgotten edge: Smith defends the Navigation Acts — the most protectionist statute of his age — because 'defence... is of much more importance than opulence.'",
+    "The invisible-hand passage is included in its actual context, which is narrower and more interesting than its later career as a slogan: it concerns the merchant's preference for domestic employment of capital, not a general theorem about markets. The text is Smith's original English."
+  ],
+  "sections": [
+    {
+      "id": "iv2",
+      "label": "Book IV, chapter ii — the invisible hand, and defence before opulence",
+      "cite": "WN IV.ii",
+      "units": [
+        {
+          "k": "1",
+          "text": "As every individual, therefore, endeavours as much as he can, both to employ his capital in the support of domestic industry, and so to direct that industry that its produce may be of the greatest value; every individual necessarily labours to render the annual revenue of the society as great as he can. He generally, indeed, neither intends to promote the public interest, nor knows how much he is promoting it. By preferring the support of domestic to that of foreign industry, he intends only his own security; and by directing that industry in such a manner as its produce may be of the greatest value, he intends only his own gain; and he is in this, as in many other cases, led by an invisible hand to promote an end which was no part of his intention. Nor is it always the worse for the society that it was no part of it. By pursuing his own interest, he frequently promotes that of the society more effectually than when he really intends to promote it."
+        },
+        {
+          "k": "2",
+          "text": "The act of navigation is not favourable to foreign commerce, or to the growth of that opulence which can arise from it. The interest of a nation, in its commercial relations to foreign nations, is, like that of a merchant with regard to the different people with whom he deals, to buy as cheap, and to sell as dear as possible. But it will be most likely to buy cheap, when, by the most perfect freedom of trade, it encourages all nations to bring to it the goods which it has occasion to purchase; and, for the same reason, it will be most likely to sell dear, when its markets are thus filled with the greatest number of buyers."
+        },
+        {
+          "k": "3",
+          "text": "As defence, however, is of much more importance than opulence, the act of navigation is, perhaps, the wisest of all the commercial regulations of England."
+        }
+      ]
+    },
+    {
+      "id": "iv3",
+      "label": "Book IV, chapter iii — the jealousy of trade",
+      "cite": "WN IV.iii",
+      "units": [
+        {
+          "k": "1",
+          "text": "The sneaking arts of underling tradesmen are thus erected into political maxims for the conduct of a great empire; for it is the most underling tradesmen only who make it a rule to employ chiefly their own customers. A great trader purchases his goods always where they are cheapest and best, without regard to any little interest of this kind."
+        },
+        {
+          "k": "2",
+          "text": "By such maxims as these, however, nations have been taught that their interest consisted in beggaring all their neighbours. Each nation has been made to look with an invidious eye upon the prosperity of all the nations with which it trades, and to consider their gain as its own loss. Commerce, which ought naturally to be, among nations as among individuals, a bond of union and friendship, has become the most fertile source of discord and animosity. The capricious ambition of kings and ministers has not, during the present and the preceding century, been more fatal to the repose of Europe, than the impertinent jealousy of merchants and manufacturers."
+        },
+        {
+          "k": "3",
+          "text": "That it was the spirit of monopoly which originally both invented and propagated this doctrine, cannot be doubted; and they who first taught it, were by no means such fools as they who believed it. In every country it always is, and must be, the interest of the great body of the people, to buy whatever they want of those who sell it cheapest. The proposition is so very manifest, that it seems ridiculous to take any pains to prove it; nor could it ever have been called in question, had not the interested sophistry of merchants and manufacturers confounded the common sense of mankind."
+        }
+      ]
+    }
+  ],
+  "exec": [
+    "For the executive, Book IV is the permanent debate between efficiency and security, conducted at the highest level either side has ever reached. Smith's positive-sum case (IV.iii) supplies the discipline: when trade restrictions are proposed in the language of national interest, ask whose monopoly rent is being defended — 'they who first taught it were by no means such fools as they who believed it' remains the sharpest one-line analysis of lobbying ever written. His diagnosis that beggar-thy-neighbour doctrine converts commerce from 'a bond of union' into 'the most fertile source of discord' reads as a history of the 1930s written 150 years early, and as a caution for the 2020s.",
+    "But the passage today's strategy discussions actually turn on is IV.ii.3: 'defence, however, is of much more importance than opulence.' Smith — the founder of free-trade economics — concedes that where security is genuinely at stake, efficiency yields; the whole modern architecture of export controls, friend-shoring, and strategic-industry subsidy is an application (and frequently an over-application) of that sentence. The executive skill is Smith's own: holding both edges at once — pricing the real cost of resilience honestly, while testing every 'security' claim for the monopoly interest hiding inside it. The invisible-hand unit, read in context, adds a governance footnote: Smith's mechanism works through dispersed actors bearing their own risks; it is not an argument that whatever a large firm does is socially optimal, and executives who quote it should know how modest its original claim was."
+  ]
+}

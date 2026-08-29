@@ -1,0 +1,57 @@
+{
+  "headnote": [
+    "On 25 January 1904, Halford Mackinder (1861–1947), director of the London School of Economics and the man who established geography as a university discipline in Britain, read a short paper to the Royal Geographical Society. 'The Geographical Pivot of History' announced that the four-century 'Columbian epoch' of outward expansion was over: with the world's political map effectively complete, humanity had entered a closed system in which 'every explosion of social forces... will be sharply re-echoed from the far side of the globe.' On that foundation he built the pivot (later 'Heartland') thesis — that control of inner Eurasia, newly accessible to railways, could outflank the maritime world — and with it founded modern geopolitics.",
+    "The paper is reproduced here from The Geographical Journal, vol. 23 (1904), pp. 421–437, in its original wording — including, in the closing passage, the racial idiom of its era, quoted as the historical document it is. Mackinder's own caveat, often dropped by his popularizers, is included: geography is one factor in the balance of power, human organization the other, and 'the particular combinations of power brought into balance are not material.'"
+  ],
+  "sections": [
+    {
+      "id": "closed",
+      "label": "pp. 421–422 — the closed political system",
+      "cite": "GP 421-422",
+      "units": [
+        {
+          "k": "1",
+          "text": "Broadly speaking, we may contrast the Columbian epoch with the age which preceded it, by describing its essential characteristic as the expansion of Europe against almost negligible resistances, whereas mediaeval Christendom was pent into a narrow region and threatened by external barbarism. From the present time forth, in the post-Columbian age, we shall again have to deal with a closed political system, and none the less that it will be one of world-wide scope. Every explosion of social forces, instead of being dissipated in a surrounding circuit of unknown space and barbaric chaos, will be sharply re-echoed from the far side of the globe, and weak elements in the political and economic organism of the world will be shattered in consequence. There is a vast difference of effect in the fall of a shell into an earthwork and its fall amid the closed spaces and rigid structures of a great building or ship. Probably some half-consciousness of this fact is at last diverting much of the attention of statesmen in all parts of the world from territorial expansion to the struggle for relative efficiency."
+        },
+        {
+          "k": "2",
+          "text": "It appears to me, therefore, that in the present decade we are for the first time in a position to attempt, with some degree of completeness, a correlation between the larger geographical and the larger historical generalizations. For the first time we can perceive something of the real proportion of features and events on the stage of the whole world, and may seek a formula which shall express certain aspects, at any rate, of geographical causation in universal history. If we are fortunate, that formula should have a practical value as setting into perspective some of the competing forces in current international politics."
+        }
+      ]
+    },
+    {
+      "id": "pivot",
+      "label": "pp. 436–437 — the pivot state and the crescents",
+      "cite": "GP 436-437",
+      "units": [
+        {
+          "k": "1",
+          "text": "Outside the pivot area, in a great inner crescent, are Germany, Austria, Turkey, India, and China, and in an outer crescent, Britain, South Africa, Australia, the United States, Canada, and Japan. In the present condition of the balance of power, the pivot state, Russia, is not equivalent to the peripheral states, and there is room for an equipoise in France."
+        },
+        {
+          "k": "2",
+          "text": "The oversetting of the balance of power in favour of the pivot state, resulting in its expansion over the marginal lands of Euro-Asia, would permit of the use of vast continental resources for fleet-building, and the empire of the world would then be in sight. This might happen if Germany were to ally herself with Russia. The threat of such an event should, therefore, throw France into alliance with the over-sea powers. … The particular combinations of power brought into balance are not material; my contention is that from a geographical point of view they are likely to rotate round the pivot state, which is always likely to be great, but with limited mobility as compared with the surrounding marginal and insular powers."
+        }
+      ]
+    },
+    {
+      "id": "closing",
+      "label": "p. 437 — geography, organization, and the closing caveat",
+      "cite": "GP 437",
+      "units": [
+        {
+          "k": "1",
+          "text": "I have spoken as a geographer. The actual balance of political power at any given time is, of course, the product, on the one hand, of geographical conditions, both economic and strategic, and, on the other hand, of the relative number, virility, equipment, and organization of the competing peoples. In proportion as these quantities are accurately estimated are we likely to adjust differences without the crude resort to arms. And the geographical quantities in the calculation are more measurable and more nearly constant than the human."
+        },
+        {
+          "k": "2",
+          "text": "In conclusion, it may be well expressly to point out that the substitution of some new control of the inland area for that of Russia would not tend to reduce the geographical significance of the pivot position. Were the Chinese, for instance, organized by the Japanese, to overthrow the Russian Empire and conquer its territory, they might constitute the yellow peril to the world's freedom just because they would add an oceanic frontage to the resources of the great continent, an advantage as yet denied to the Russian tenant of the pivot region."
+        }
+      ]
+    }
+  ],
+  "exec": [
+    "The closed-system passage is the paper's enduring gift, and it describes the operating environment of every global business since 1945 more precisely than most current commentary: in a fully claimed, fully connected world there is no 'outside' into which shocks dissipate — a pandemic in one city, a war on one grain coast, a default in one banking system is 'sharply re-echoed from the far side of the globe,' and the weak elements in the economic organism (over-levered balance sheets, single-source supply chains, just-in-time inventories) 'will be shattered in consequence.' Mackinder's corollary is equally current: when expansion is closed, competition shifts to 'the struggle for relative efficiency' — productivity, technology, and institutional quality as the remaining theaters of rivalry.",
+    "The pivot analysis itself is the ancestor of every strategy meeting that begins with a map: a central player rich in resources but 'with limited mobility,' a surrounding crescent of contested marginal players, and an outer ring of insular powers whose interest is that no combination unify the center — a geometry executives will recognize in platform ecosystems as readily as in Eurasia, and one that acquired new life in current debates about a Russia–China continental bloc (the 'might happen if' alliance Mackinder flagged in 1904). His closing caveat is the responsible way to use all such frameworks: geography proposes, organization disposes — 'the geographical quantities... are more measurable and more nearly constant than the human,' which is exactly why they are over-weighted by analysts and must be corrected by judgment about people and institutions. The final paragraph, with its era's racial idiom, is retained as a caution the corpus itself teaches: even foundational analysis arrives wrapped in the prejudices of its moment, and part of reading the past well is separating the geometry, which travels, from the idiom, which must not."
+  ]
+}
