@@ -86,6 +86,12 @@ function viewOverview() {
         works across 2,300 years share one vocabulary. <a href="#/atlas">Open the atlas →</a></p>
       </div>
       <div class="card">
+        <h3>Timeline</h3>
+        <p>The corpus in time, from Sun Tzŭ to Mackinder: twelve stations in three lines across
+        twenty-four centuries, with the crossings where one work answers another.
+        <a href="#/timeline">Open the timeline →</a></p>
+      </div>
+      <div class="card">
         <h3>Applications</h3>
         <p>Two companion tools apply this way of reading to live events: a daily source-based monitor of
         Russia's war against Ukraine, and an interactive engine that proposes — and stress-tests —
@@ -267,6 +273,134 @@ function viewWorks() {
     wrap.append(grid);
   });
   view.append(wrap);
+}
+
+/* ============================================================ TIMELINE */
+/* Chronological view of the three lines, after Ignatiana's timeline. Dates
+   are editorial anchors: the year of composition or first publication, with
+   spans and conventional dates for the ancient texts (works.json carries the
+   full statements). Editorial matter, CC BY 4.0. */
+const TIMELINE = [
+  { id: "suntzu", y: -500, jahr: "c. 5th c. BC", kurz: "Sun Tzŭ" },
+  { id: "thucydides", y: -400, jahr: "c. 400 BC", kurz: "Thucydides" },
+  { id: "kautilya", y: -300, jahr: "c. 300 BC–AD 200", kurz: "Kautilya" },
+  { id: "machiavelli", y: 1513, jahr: "1513/1532", kurz: "Machiavelli" },
+  { id: "grotius", y: 1609, jahr: "1609", kurz: "Grotius" },
+  { id: "bacon", y: 1625, jahr: "1625", kurz: "Bacon" },
+  { id: "mun", y: 1630, jahr: "c. 1630/1664", kurz: "Mun" },
+  { id: "hobbes", y: 1651, jahr: "1651", kurz: "Hobbes" },
+  { id: "smith", y: 1776, jahr: "1776", kurz: "Smith" },
+  { id: "clausewitz", y: 1832, jahr: "1832", kurz: "Clausewitz" },
+  { id: "mahan", y: 1890, jahr: "1890", kurz: "Mahan" },
+  { id: "mackinder", y: 1904, jahr: "1904", kurz: "Mackinder" },
+];
+const TL_ERAS = [
+  { until: 1000, titel: "Antiquity: the founding texts" },
+  { until: 1800, titel: "The first globalization: Machiavelli to Smith" },
+  { until: 9999, titel: "The closed world: Clausewitz to Mackinder" },
+];
+/* Crossings: one work carrying or answering another. */
+const TL_CROSS = [
+  { from: "thucydides", to: "hobbes",
+    titel: "Hobbes's first published work was his English Thucydides (1629)" },
+  { from: "mun", to: "smith",
+    titel: "Smith names Mun's title as the fundamental maxim of the mercantile system" },
+];
+
+function viewTimeline() {
+  const CX = { state: 300, trade: 520, strat: 740 };
+  const W = 960, ROW = 44, ERAROW = 42, TOP = 46;
+  const rows = [...TIMELINE].sort((a, b) => a.y - b.y);
+  const lineOf = id => workById(id).line;
+
+  let yy = TOP, eraIdx = -1;
+  const bands = [], pos = {};
+  for (const r of rows) {
+    const e = TL_ERAS.findIndex(x => r.y < x.until);
+    if (e !== eraIdx) { eraIdx = e; bands.push({ y: yy, titel: TL_ERAS[e].titel }); yy += ERAROW; }
+    pos[r.id] = { x: CX[lineOf(r.id)], y: yy + ROW / 2 };
+    yy += ROW;
+  }
+  const H = yy + 16;
+
+  const spines = Object.keys(CX).map(l => {
+    const ys = rows.filter(r => lineOf(r.id) === l).map(r => pos[r.id].y);
+    return { l, y1: Math.min(...ys), y2: Math.max(...ys) };
+  });
+
+  const bandSvg = bands.map(b => `
+    <text x="20" y="${b.y + 28}" font-family="Georgia,serif" font-size="14" font-style="italic"
+      fill="var(--fg3)" paint-order="stroke" stroke="var(--panel)" stroke-width="5"
+      stroke-linejoin="round">${esc(b.titel)}</text>
+    <line x1="20" x2="${W - 20}" y1="${b.y + 36}" y2="${b.y + 36}" stroke="var(--line)"/>`).join("");
+
+  const spineSvg = spines.map(s => `
+    <line x1="${CX[s.l]}" x2="${CX[s.l]}" y1="${s.y1}" y2="${s.y2}"
+      stroke="${LCOLOR[s.l]}" stroke-width="2" stroke-opacity=".3"/>`).join("");
+
+  const crossSvg = TL_CROSS.map(c => {
+    const a = pos[c.from], b = pos[c.to];
+    const same = a.x === b.x, bow = same ? a.x - 78 : (a.x + b.x) / 2;
+    const d = `M ${a.x} ${a.y} C ${bow} ${a.y + (b.y - a.y) * .25}, ${bow} ${a.y + (b.y - a.y) * .75}, ${b.x} ${b.y}`;
+    return `<path d="${d}" fill="none" stroke="var(--fg3)" stroke-width="1.4"
+      stroke-dasharray="4 4" stroke-opacity=".7"><title>${esc(c.titel)}</title></path>`;
+  }).join("");
+
+  const dotSvg = rows.map(r => {
+    const p = pos[r.id], w = workById(r.id);
+    return `<a href="#/work/${r.id}">
+      <title>${esc(w.author)} — ${esc(w.title)} (${esc(w.date)})</title>
+      <text x="170" y="${p.y + 4}" text-anchor="end" font-family="var(--mono, monospace)" font-size="11"
+        fill="var(--fg3)">${esc(r.jahr)}</text>
+      <circle cx="${p.x}" cy="${p.y}" r="5.5" fill="${LCOLOR[w.line]}"
+        stroke="var(--panel)" stroke-width="1.5"/>
+      <text x="${p.x + 15}" y="${p.y + 4.5}" font-family="Georgia,serif" font-size="13.5" fill="var(--fg)"
+        paint-order="stroke" stroke="var(--panel)" stroke-width="4" stroke-linejoin="round">
+        ${esc(r.kurz)}</text>
+    </a>`;
+  }).join("");
+
+  const HEAD = { state: "Statecraft", trade: "Trade", strat: "Strategy" };
+  const headSvg = Object.keys(CX).map(l => `
+    <text x="${CX[l]}" y="24" text-anchor="middle" font-size="12.5" font-weight="600"
+      fill="${LCOLOR[l]}">${HEAD[l]}</text>`).join("");
+
+  view.append(el(`<div>
+    <div class="viewhead"><span class="tag">Chronology</span>
+      <h1>Timeline — three lines, c. 500 BC to 1904</h1>
+      <p class="lede">The corpus in time: twelve stations across twenty-four centuries. Antiquity
+      supplies the founding grammars — calculation and position, the dynamics of rivalry, the
+      administered state. The first globalization, from Machiavelli to Smith, writes the arguments
+      the present still runs on: change and fortune, open seas against the balance of trade, the
+      sovereign as the price of enforcement. The nineteenth century closes the frame, from the
+      friction of war to the sea lanes and a fully claimed planet. Dashed arcs mark crossings where
+      one work carries or answers another; every station opens its reader.</p></div>
+    <div class="tlwrap panel" style="padding:1rem .4rem">
+      <svg class="tl" viewBox="0 0 ${W} ${H}" role="img"
+        aria-label="Chronological chart of the corpus in three lines, c. 500 BC to 1904">
+        ${headSvg}${spineSvg}${crossSvg}${bandSvg}${dotSvg}
+      </svg>
+    </div>
+    <div class="panel">
+      <h2 style="margin-top:0">The crossings</h2>
+      <ul class="tlcross" style="margin:.4rem 0 0;padding-left:1.2rem">
+        <li><a href="#/work/hobbes">Thucydides → Hobbes</a> — Hobbes's first published work was his
+          English translation of Thucydides (1629); the war "where every man is Enemy to every man"
+          (<a href="#/work/hobbes/c13/2">Lev. XIII [2]</a>) reads as the general case of the civil
+          strife at Corcyra (<a href="#/work/thucydides/iii82/1">Thuc. III.82 [1]</a>).</li>
+        <li><a href="#/work/smith">Mun → Smith</a> — Smith names Mun's title as the fundamental maxim
+          of the mercantile system and writes Book IV of <em>The Wealth of Nations</em> to demolish
+          it; Mun's executive lens asks that the two be read as a pair.</li>
+      </ul>
+      <p class="fine" style="margin:.8rem 0 0">Dates are editorial anchors: the year of composition
+      or first publication, with both given where they diverge (Machiavelli wrote in 1513, printed
+      1532; Mun wrote in the early 1630s, printed 1664). The ancient dates are conventional: Sun
+      Tzŭ's chapters are attributed to the late sixth or fifth century BC, Thucydides wrote until
+      about 400 BC, and the Arthashastra was compiled over several centuries from about 300 BC. The
+      chart spaces stations by order, not elapsed time; the long gap between Kautilya and
+      Machiavelli is a gap in the corpus, not in history.</p>
+    </div>
+  </div>`));
 }
 
 /* ============================================================== READER */
@@ -557,8 +691,13 @@ async function viewAtlas() {
     }
   }
 
-  const COLOR = { state: "#8fb4d9", trade: "#c9a15a", strat: "#c98070" };
+  /* The palette, read from the CSS variables at draw time, so the canvas
+     follows the active theme. */
+  const COLOR = LCOLOR;
   function draw() {
+    const cs = getComputedStyle(document.documentElement), v = k => cs.getPropertyValue(k).trim();
+    const P = { state: v("--state"), trade: v("--trade"), strat: v("--strat"), acc: v("--acc"),
+      edge: v("--netedge"), label: v("--netlabel"), fg: v("--fg") };
     cx.clearRect(0, 0, W, H);
     const neigh = new Set();
     if (selected) for (const e of edges) {
@@ -567,18 +706,20 @@ async function viewAtlas() {
     }
     for (const e of edges) {
       const on = selected && (e.a === selected || e.b === selected);
-      cx.strokeStyle = on ? "rgba(201,161,90,.55)" : "rgba(160,160,180,.13)";
+      cx.strokeStyle = on ? P.acc : P.edge;
+      cx.globalAlpha = on ? 0.6 : 1;
       cx.lineWidth = on ? 1.4 : Math.min(1, 0.3 + e.w * 0.05);
       cx.beginPath(); cx.moveTo(e.a.x, e.a.y); cx.lineTo(e.b.x, e.b.y); cx.stroke();
     }
+    cx.globalAlpha = 1;
     for (const n of nodes) {
       const dimmed = selected && n !== selected && !neigh.has(n);
       cx.globalAlpha = dimmed ? 0.25 : 1;
-      cx.fillStyle = COLOR[n.linie];
+      cx.fillStyle = P[n.linie];
       cx.beginPath(); cx.arc(n.x, n.y, n.r, 0, 7); cx.fill();
-      if (n === selected) { cx.strokeStyle = "#fff"; cx.lineWidth = 1.5; cx.stroke(); }
+      if (n === selected) { cx.strokeStyle = P.fg; cx.lineWidth = 1.5; cx.stroke(); }
       if (!dimmed && (n.f >= LBL || n === selected || neigh.has(n))) {
-        cx.fillStyle = "rgba(233,230,224,.92)";
+        cx.fillStyle = P.label;
         cx.font = (n === selected ? "600 " : "") + "11px system-ui, sans-serif";
         cx.textAlign = "center";
         cx.fillText(n.id, n.x, n.y - n.r - 4);
@@ -810,7 +951,12 @@ function viewPrivacy() {
       itself. Opening any page therefore contacts exactly one host: the one in your address bar. Search
       runs entirely in your browser; nothing you type is transmitted anywhere. Outbound links (to
       Project Gutenberg, the Internet Archive, and the two companion sites) are ordinary links: no data
-      flows to those hosts unless you click them.</p></div>
+      flows to those hosts unless you click them.</p>
+      <p class="readable">One preference is kept on your own device: if you switch between the dark
+      and the light view, your browser's local storage keeps the choice under the key
+      <span class="mono">hmTheme</span>, so that the site opens the way you left it. It is not
+      transmitted anywhere, and clearing this site's data in your browser removes it. Without a stored
+      choice, the site follows your system's light or dark setting.</p></div>
     <div class="panel"><h2>Server logs</h2>
       <p class="readable">The site is hosted by Netlify. Like any web host, Netlify's infrastructure
       records the requests it serves — typically IP address, timestamp, requested URL, HTTP status,
@@ -856,9 +1002,25 @@ function viewImprint() {
 }
 
 Object.assign(ROUTES, {
-  overview: viewOverview, introduction: viewIntroduction, works: viewWorks,
+  overview: viewOverview, introduction: viewIntroduction, works: viewWorks, timeline: viewTimeline,
   work: viewWork, concordance: viewConcordance, atlas: viewAtlas, applications: viewApplications,
   method: viewMethod, privacy: viewPrivacy, imprint: viewImprint,
 });
+
+/* Theme toggle: index.html decides the initial theme before first paint;
+   this button flips it and stores the choice. The atlas canvas redraws every
+   frame from the CSS variables; the other views are plain CSS. */
+function syncThemeBtn() {
+  const light = document.documentElement.getAttribute("data-theme") === "light";
+  document.getElementById("themeLabel").textContent = light ? "Dark room" : "Daylight";
+}
+document.getElementById("themeBtn").onclick = () => {
+  const light = document.documentElement.getAttribute("data-theme") === "light";
+  if (light) document.documentElement.removeAttribute("data-theme");
+  else document.documentElement.setAttribute("data-theme", "light");
+  try { localStorage.setItem("hmTheme", light ? "dark" : "light"); } catch (e) {}
+  syncThemeBtn();
+};
+syncThemeBtn();
 
 boot();

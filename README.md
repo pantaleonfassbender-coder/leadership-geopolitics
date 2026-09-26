@@ -22,7 +22,9 @@ Static site, no build step: `index.html` + `style.css` + `app.js`
 (hash-routed single-page app) + `data/*.json` (one file per work, plus
 `works.json` for corpus metadata). Deployable as-is via Netlify (drop or
 repo link). No cookies, no analytics, no third-party requests; all assets
-served from the site itself.
+served from the site itself. One localStorage key (`hmTheme`) remembers the
+reader's choice between the dark and the light view ("Dark room" /
+"Daylight"); without it the site follows the system setting.
 
 Companion in spirit to
 [Calculemus — Philosophical Predecessors of AI](https://philosophical-predecessors-of-ai.netlify.app/),
