@@ -920,6 +920,18 @@ function viewMethod() {
     </div>
 
     <div class="panel">
+      <h2>How to cite</h2>
+      <p class="readable">Cite a passage by its standard reference and, where useful, this site's
+      unit number (<span class="cite">Thuc. I.23 [1]</span>). The apparatus itself:</p>
+      <p class="readable">Fassbender, P. (2026). <em>Historia Magistra: Lessons from the past for
+      leadership and geopolitics</em> (Version 1.0.0) [Computer software]. Zenodo.
+      <a href="https://doi.org/10.5281/zenodo.22970068" rel="noopener">https://doi.org/10.5281/zenodo.22970068</a></p>
+      <p class="fine">The concept DOI 10.5281/zenodo.22970068 always resolves to the latest archived
+      version; the version DOI of v1.0.0 is
+      <a href="https://doi.org/10.5281/zenodo.22970069" rel="noopener">10.5281/zenodo.22970069</a>.</p>
+    </div>
+
+    <div class="panel">
       <h2>Rights</h2>
       <p class="readable">All primary texts on this site are in the United States public domain by
       publication age (the youngest, Mackinder's paper, was published in 1904). The site's own
@@ -950,7 +962,8 @@ function viewPrivacy() {
       advertising or third-party services of any kind; all fonts and scripts are served from this site
       itself. Opening any page therefore contacts exactly one host: the one in your address bar. Search
       runs entirely in your browser; nothing you type is transmitted anywhere. Outbound links (to
-      Project Gutenberg, the Internet Archive, and the two companion sites) are ordinary links: no data
+      Project Gutenberg, the Internet Archive, the DOI resolver and Zenodo, and the two companion
+      sites) are ordinary links: no data
       flows to those hosts unless you click them.</p>
       <p class="readable">One preference is kept on your own device: if you switch between the dark
       and the light view, your browser's local storage keeps the choice under the key
