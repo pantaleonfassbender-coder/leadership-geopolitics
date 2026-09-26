@@ -5,6 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Historia Magistra · Lessons from the Past for Leadership &amp; Geopolitics</title>
 <meta name="description" content="A research apparatus of twelve public-domain texts on statecraft, early modern globalization and military strategy — Thucydides, Sun Tzu, Kautilya, Machiavelli, Grotius, Bacon, Mun, Hobbes, Smith, Clausewitz, Mahan, Mackinder — read as an executive curriculum: citable excerpts, an executive concordance, and bridges to current geopolitical analysis.">
+<script>
+/* Theme, decided before first paint: a stored choice wins; otherwise the
+   system preference; otherwise the site's native dark. */
+try{
+  var t=localStorage.getItem("hmTheme");
+  if(!t&&window.matchMedia&&matchMedia("(prefers-color-scheme: light)").matches)t="light";
+  if(t==="light")document.documentElement.setAttribute("data-theme","light");
+}catch(e){}
+</script>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='25' font-size='24'>⊕</text></svg>">
 </head>
@@ -22,11 +31,15 @@
     <a href="#/overview" data-v="overview">Overview</a>
     <a href="#/introduction" data-v="introduction">Introduction</a>
     <a href="#/works" data-v="works">Works</a>
+    <a href="#/timeline" data-v="timeline">Timeline</a>
     <a href="#/concordance" data-v="concordance">Concordance</a>
     <a href="#/atlas" data-v="atlas">Atlas</a>
     <a href="#/applications" data-v="applications">Applications</a>
     <a href="#/method" data-v="method">Method &amp; rights</a>
   </nav>
+  <button id="themeBtn" class="themebtn" type="button" title="Switch between the dark room and daylight">
+    <span id="themeLabel">Daylight</span>
+  </button>
 </header>
 
 <main id="view"></main>

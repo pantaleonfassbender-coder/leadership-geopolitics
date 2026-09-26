@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+title: "Historia Magistra: Lessons from the Past for Leadership and Geopolitics"
+message: "If you use this apparatus, please cite it as below, and cite the work and passage by its standard reference for any passage you quote (e.g. Thuc. I.23)."
+type: software
+authors:
+  - family-names: Fassbender
+    given-names: Pantaleon
+    orcid: "https://orcid.org/0000-0002-6683-3617"
+repository-code: "https://github.com/pantaleonfassbender-coder/leadership-geopolitics"
+abstract: >-
+  A research apparatus of twelve public-domain texts on statecraft, the first
+  globalization and military strategy, read as an executive curriculum for
+  current leadership and geopolitical challenges. The corpus runs in three
+  lines: statecraft (Thucydides, Kautilya, Machiavelli, Bacon, Hobbes), trade
+  (Grotius, Mun, Smith) and strategy (Sun Tzu, Clausewitz, Mahan, Mackinder),
+  from c. 500 BC to Mackinder's "The Geographical Pivot of History" (1904).
+  Each work is represented by its analytically load-bearing passages, 93
+  verbatim excerpt units in United States public-domain editions with stable
+  paragraph-level citation anchors, and carries a scholarly headnote and an
+  executive lens. An introductory essay sets out the case for learning from
+  the past and its limits (Koselleck; Neustadt and May; Khong) and derives a
+  protocol for responsible historical analogy. With an executive concordance
+  mapping eight present-day challenges to the passages, a reproducible term
+  co-occurrence atlas, a timeline of the corpus in three lines and three eras,
+  and links to two companion tools that apply the method to current events.
+  A static site with no build step, cookies or third-party requests.
+keywords:
+  - leadership
+  - geopolitics
+  - strategy
+  - statecraft
+  - history of political thought
+  - economic security
+  - historical analogy
+  - digital humanities
+license: MIT
+version: 1.0.0
+date-released: 2026-09-26
