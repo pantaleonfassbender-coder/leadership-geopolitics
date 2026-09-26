@@ -1,5 +1,7 @@
 # Historia Magistra — leadership & geopolitics
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22970068.svg)](https://doi.org/10.5281/zenodo.22970068)
+
 A "lessons from the past" research apparatus: twelve public-domain texts from
 philosophy, political theory, early modern globalization and military strategy
 — Thucydides, Sun Tzŭ, Kautilya, Machiavelli, Grotius, Bacon, Mun, Hobbes,
@@ -38,3 +40,11 @@ All primary texts are in the United States public domain (youngest: Mackinder,
 1904). Editorial matter CC BY 4.0 · code MIT · derived excerpt data CC0 —
 see [LICENSES](LICENSES). Sources and editions are documented, edition by
 edition, on the site's method page.
+
+## Citation
+
+Fassbender, P. (2026). *Historia Magistra: Lessons from the past for leadership
+and geopolitics* (Version 1.0.0) [Computer software]. Zenodo.
+https://doi.org/10.5281/zenodo.22970068 (concept DOI; v1.0.0: 10.5281/zenodo.22970069).
+See `CITATION.cff`. Cite the excerpted works by their standard references
+(`Thuc. I.23`).
