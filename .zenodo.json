@@ -1,0 +1,26 @@
+{
+  "upload_type": "software",
+  "title": "Historia Magistra: Lessons from the Past for Leadership and Geopolitics",
+  "creators": [
+    {
+      "name": "Fassbender, Pantaleon",
+      "orcid": "0000-0002-6683-3617"
+    }
+  ],
+  "description": "<p>Historia Magistra is a research apparatus of twelve foundational texts on power, trade and strategy, read as an executive curriculum for current leadership and geopolitical challenges. The corpus runs from Sun Tzu and Thucydides to Halford Mackinder's &ldquo;The Geographical Pivot of History&rdquo; (1904) in three lines: statecraft (Thucydides, Kautilya, Machiavelli, Bacon, Hobbes), the trade debate of the first globalization (Grotius, Mun, Smith), and strategy (Sun Tzu, Clausewitz, Mahan, Mackinder).</p><p>Each work is represented by its analytically load-bearing passages &mdash; 93 verbatim excerpt units in United States public-domain editions, each with a stable paragraph-level citation anchor &mdash; and carries a scholarly headnote and an &ldquo;executive lens&rdquo;. An introductory essay sets out the historiographical case for learning from the past and its limits, drawing on Koselleck's critique of the <em>historia magistra vitae</em> topos and on the literature on analogical reasoning in decision-making (Neustadt &amp; May; Khong), and derives a protocol for using historical analogy without being used by it.</p><p>The apparatus adds an executive concordance mapping eight present-day challenges (rivalry and escalation, winning without fighting, early warning, leading change, interdependence and chokepoints, rules and enforcement, execution under uncertainty, leadership and judgment) to the relevant passages; an atlas, a reproducible term co-occurrence network over the excerpts; a timeline of the corpus in three lines and three eras; and links to two companion tools that apply the method to current events.</p><p>The site is a static web application with no build step, no server component, no cookies and no third-party requests; this deposit archives its complete source, including the JSON excerpt data and the network build script.</p><p>Licensing: primary texts United States public domain; source code MIT; editorial matter (introduction, headnotes, executive lenses, concordance glosses, timeline notes) CC BY 4.0; derived excerpt data CC0 1.0 &mdash; see LICENSES. Nothing in the apparatus is investment, legal or policy advice.</p>",
+  "license": "MIT",
+  "keywords": [
+    "leadership",
+    "geopolitics",
+    "strategy",
+    "statecraft",
+    "history of political thought",
+    "economic security",
+    "mercantilism",
+    "historical analogy",
+    "Thucydides",
+    "Clausewitz",
+    "Mackinder",
+    "digital humanities"
+  ]
+}
