@@ -10,7 +10,9 @@ Each work ships with a scholarly headnote, exact excerpts with paragraph-level
 citation anchors, and an "executive lens." An introductory essay sets out the
 historiographical case (and its limits, via Koselleck, Neustadt & May, and
 Khong); an executive concordance maps eight current leadership challenges to
-the exact passages that address their structure; an applications page bridges
+the exact passages that address their structure; an atlas maps the shared
+vocabulary and a timeline sets the twelve works in three lines from c. 500 BC
+to 1904; an applications page bridges
 to two live companion tools:
 
 - [Ukraine War Monitor](https://ukraine-war-monitor.netlify.app/)
